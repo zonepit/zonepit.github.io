@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en" data-single="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TSS, CTL, ATL and TSB explained simply – ZonePit</title>
+<meta name="description" content="Load, fitness, fatigue and form: how TSS, CTL, ATL and TSB are calculated, with a worked example, rules of thumb and the limits of the model.">
+<link rel="canonical" href="https://zonepit.github.io/en/guides/tss-ctl-atl-tsb-explained/">
+<link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/tss-ctl-atl-tsb-explained/">
+<link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/tss-ctl-atl-tsb-erklaert/">
+<link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/tss-ctl-atl-tsb-explained/">
+<meta name="theme-color" content="#F2EFEA" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0A0D10" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../../../assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../../../assets/apple-touch-icon.png">
+<meta property="og:site_name" content="ZonePit">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="TSS, CTL, ATL and TSB explained simply – ZonePit">
+<meta property="og:description" content="Load, fitness, fatigue and form: how TSS, CTL, ATL and TSB are calculated, with a worked example, rules of thumb and the limits of the model.">
+<meta property="og:url" content="https://zonepit.github.io/en/guides/tss-ctl-atl-tsb-explained/">
+<meta property="og:image" content="https://zonepit.github.io/assets/og-image-en.png">
+<meta property="og:image:alt" content="ZonePit – Your AI training coach for iPhone">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="../../../assets/fonts/BarlowSemiCondensed-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../../assets/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"TSS, CTL, ATL and TSB explained simply","description":"Load, fitness, fatigue and form: how TSS, CTL, ATL and TSB are calculated, with a worked example, rules of thumb and the limits of the model.","inLanguage":"en","datePublished":"2026-10-06","dateModified":"2026-10-06","mainEntityOfPage":"https://zonepit.github.io/en/guides/tss-ctl-atl-tsb-explained/","image":"https://zonepit.github.io/assets/og-image-en.png","author":{"@type":"Person","name":"Alexander Wolpert"},"publisher":{"@type":"Organization","name":"ZonePit","logo":{"@type":"ImageObject","url":"https://zonepit.github.io/assets/app-icon-512.png"}}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://zonepit.github.io/en/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://zonepit.github.io/en/guides/"},{"@type":"ListItem","position":3,"name":"TSS, CTL, ATL and TSB explained simply","item":"https://zonepit.github.io/en/guides/tss-ctl-atl-tsb-explained/"}]}</script>
+</head>
+<body>
+<a class="skip" href="#inhalt">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../../../en/" aria-label="ZonePit">
+      <img src="../../../assets/favicon-192.png" alt="" width="38" height="38">
+      <span class="wordmark"><span class="r">Zone</span><span class="c">Pit</span></span>
+    </a>
+    <nav class="main" aria-label="Main navigation">
+      <a class="hide-sm" href="../../../en/guides/">Guides</a>
+      <div class="lang" role="group" aria-label="Language / Sprache">
+        <a href="../../../en/guides/tss-ctl-atl-tsb-explained/" hreflang="en" lang="en" aria-current="true" data-lang-link="en">EN</a>
+        <a href="../../../de/ratgeber/tss-ctl-atl-tsb-erklaert/" hreflang="de" lang="de" data-lang-link="de">DE</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<main id="inhalt" class="article">
+<p class="crumbs"><a href="../../../en/">Home</a> › <a href="../../../en/guides/">Guides</a></p>
+<span class="eyebrow">Guides</span>
+<h1>TSS, CTL, ATL and TSB explained simply</h1>
+<p class="lead">Four numbers describe how hard you trained, how fit you are, how tired, and whether you are fresh enough for a hard session. Here is how they arise, with a worked example and honest about the limits.</p>
+<p class="meta">Updated: October 6, 2026 · 8 min read</p>
+
+<h2>TSS: the load of one session</h2>
+<p>Training Stress Score (TSS) sums up a ride in a single number. It accounts for duration and intensity. One hour exactly at FTP equals 100 TSS.</p>
+<div class="formula">TSS = (duration in s × NP × IF) ÷ (FTP × 3600) × 100</div>
+<ul>
+<li><b>NP</b> (normalized power) weights hard phases more than the plain average: 30-second rolling average, raised to the fourth power, averaged, fourth root.</li>
+<li><b>IF</b> (intensity factor) is NP ÷ FTP.</li>
+</ul>
+<p><b>Example:</b> 90 minutes (5400 s), NP 200 W, FTP 250 W. IF is 200 ÷ 250 = 0.8. TSS = 5400 × 200 × 0.8 ÷ (250 × 3600) × 100 = 96.</p>
+<p>Without a power meter, load can be estimated from heart rate. That needs your threshold heart rate and is less precise.</p>
+
+<h2>CTL: fitness</h2>
+<p>Chronic Training Load (CTL) is an exponentially weighted average of your daily TSS over about 42 days. Recent days count more, older ones less. In simplified form:</p>
+<div class="formula">CTL today = CTL yesterday + (TSS today − CTL yesterday) ÷ 42</div>
+<p>Example: CTL 58 and a ride of 100 TSS give 58 + (100 − 58) ÷ 42 = 59. Fitness rises slowly and falls slowly. That inertia reflects that adaptation takes weeks.</p>
+
+<h2>ATL: fatigue</h2>
+<p>Acute Training Load (ATL) works the same way but over about 7 days. It reacts quickly to hard days and drops fast after rest days.</p>
+<div class="formula">ATL today = ATL yesterday + (TSS today − ATL yesterday) ÷ 7</div>
+<p>Example: ATL 70 and 100 TSS give 70 + 30 ÷ 7 ≈ 74.3.</p>
+
+<h2>TSB: form</h2>
+<p>Training Stress Balance (TSB) is fitness minus fatigue: <b>form = CTL − ATL</b>. With the numbers above: 58 − 70 = −12. You are fatigued but training in the productive range.</p>
+<p>Tools differ: some use the same day's values, ZonePit uses the previous day's, i.e. how you start the day.</p>
+<table>
+<tr><th>Form (TSB)</th><th>Meaning (rules of thumb)</th></tr>
+<tr><td>above +25</td><td>very fresh, perhaps too much rest</td></tr>
+<tr><td>+5 to +25</td><td>fresh, good for racing or a hard test</td></tr>
+<tr><td>−10 to +5</td><td>neutral, normal training</td></tr>
+<tr><td>−10 to −30</td><td>productive fatigue during a build</td></tr>
+<tr><td>below −30</td><td>high risk of overload</td></tr>
+</table>
+<p>These are guidelines. How much fatigue you tolerate is individual.</p>
+
+<h2>Ramp: how fast does fitness grow?</h2>
+<p>Ramp is the CTL gain per week. Staying above roughly 5 to 8 points per week for long counts as fast; ZonePit turns the number orange above 8. If the ramp stays high for long, a recovery week makes sense.</p>
+
+<h2>Limits of the model</h2>
+<ul>
+<li>It is an approximation: sleep, stress, illness and nutrition are not part of it.</li>
+<li>The numbers are only as good as your FTP. A wrong FTP shifts every value.</li>
+<li>The curves start at zero and build up from your rides. Fitness only becomes meaningful after a few weeks of history. Where data is missing, the gap stays visible.</li>
+</ul>
+
+<div class="callout"><h2>In ZonePit</h2><p>ZonePit calculates TSS, fitness, fatigue and form from your rides in Apple Health, shows a forecast and explains the numbers in conversation with the coach. The formulas are openly documented, and the coach never does the maths itself.</p><a class="btn" href="../../../en/#faq">Coming soon to the App Store</a></div>
+
+<h2>Keep reading</h2>
+<div class="related"><a href="../../../en/guides/ramp-rate-and-recovery-weeks/">Ramp rate and recovery weeks: how fast is too fast?<span>How fast your fitness may grow, when a recovery week is due and how to tell whether you …</span></a><a href="../../../en/guides/daily-readiness-hrv-resting-heart-rate-sleep/">Daily readiness: what HRV, resting heart rate and sleep tell you<span>How to read daily readiness from HRV, resting heart rate, sleep and wellbeing, why …</span></a></div>
+<h2>Sources</h2>
+<ul class="sources"><li>Hunter Allen, Andrew Coggan: <i>Training and Racing with a Power Meter</i> (TSS, NP, IF, CTL, ATL, TSB).</li><li>E. W. Banister et al. (1975): <i>A systems model of training for athletic performance</i> (basis of the fitness-fatigue model).</li></ul>
+<p class="sources">ZonePit is a training tool, not a medical device.</p>
+</main>
+<footer>
+  <div class="wrap">
+    <span>© 2026 Alexander Wolpert · Made in Berlin</span>
+    <nav aria-label="Legal">
+      <a href="../../../legal/impressum.html">Legal notice</a>
+      <a href="../../../legal/datenschutz.html">Privacy</a>
+      <a href="../../../legal/nutzungsbedingungen.html">Terms of use</a>
+      <a href="../../../en/press/">Press</a>
+      <a href="../../../en/#support">Support</a>
+    </nav>
+  </div>
+</footer>
+<script src="../../../assets/site.js"></script>
+</body>
+</html>
