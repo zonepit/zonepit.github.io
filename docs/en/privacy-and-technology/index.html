@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en" data-single="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy and technology – ZonePit</title>
+<meta name="description" content="No account, no servers, no tracking: what ZonePit reads, what happens on your iPhone and the Apple technology behind it.">
+<meta name="robots" content="noindex,follow">
+<link rel="canonical" href="https://zonepit.github.io/en/privacy-and-technology/">
+<link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/privacy-and-technology/">
+<link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/datenschutz-und-technik/">
+<link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/privacy-and-technology/">
+<meta name="theme-color" content="#F2EFEA" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0A0D10" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../../assets/apple-touch-icon.png">
+<meta property="og:site_name" content="ZonePit">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="Privacy and technology – ZonePit">
+<meta property="og:description" content="No account, no servers, no tracking: what ZonePit reads, what happens on your iPhone and the Apple technology behind it.">
+<meta property="og:url" content="https://zonepit.github.io/en/privacy-and-technology/">
+<meta property="og:image" content="https://zonepit.github.io/assets/og-image-en.png">
+<meta property="og:image:alt" content="ZonePit – Your AI training coach for iPhone">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="../../assets/fonts/BarlowSemiCondensed-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../assets/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"ZonePit","applicationCategory":"HealthApplication","operatingSystem":"iOS 27","inLanguage":["de","en"],"description":"Other apps show data. ZonePit tells you what to do today: a weekly plan from Apple Health, adapted to your readiness. Entirely on your iPhone, no account.","url":"https://zonepit.github.io/en/","image":"https://zonepit.github.io/assets/app-icon-512.png","offers":{"@type":"Offer","price":"0","priceCurrency":"EUR"},"author":{"@type":"Person","name":"Alexander Wolpert","address":{"@type":"PostalAddress","addressLocality":"Berlin","addressCountry":"DE"}}}</script>
+</head>
+<body>
+<a class="skip" href="#inhalt">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../../en/" aria-label="ZonePit">
+      <img src="../../assets/favicon-192.png" alt="" width="38" height="38">
+      <span class="wordmark"><span class="r">Zone</span><span class="c">Pit</span></span>
+    </a>
+    <nav class="main" aria-label="Main navigation">
+      <a class="hide-sm" href="../../en/features/">Features</a><a class="hide-sm" href="../../en/sports/">Sports</a><a class="hide-sm" href="../../en/privacy-and-technology/">Privacy</a><a class="hide-sm" href="../../en/pricing/">Pricing</a><a class="hide-sm" href="../../en/help/">Help</a><a class="hide-sm" href="../../en/guides/">Guides</a>
+      <div class="lang" role="group" aria-label="Language / Sprache">
+        <a href="../../en/privacy-and-technology/" hreflang="en" lang="en" aria-current="true" data-lang-link="en">EN</a>
+        <a href="../../de/datenschutz-und-technik/" hreflang="de" lang="de" data-lang-link="de">DE</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<style>
+.st{display:inline-block;font:600 13px var(--body);letter-spacing:.2px;padding:3px 10px;border-radius:999px;vertical-align:middle;margin-left:6px;white-space:nowrap}
+.st-ok{background:var(--surface-2);color:var(--text)}
+.st-soon{background:transparent;color:var(--signal-text);border:1.5px solid var(--signal-text)}
+.v2-grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));margin-top:28px}
+.v2-grid.five{grid-template-columns:repeat(auto-fit,minmax(190px,1fr))}
+.v2-card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:22px}
+.v2-card h3{font-family:var(--display);font-size:24px;line-height:1.15;margin:10px 0 8px}
+.v2-card p{margin:0;color:var(--muted);font-size:17px}
+.v2-card .more{margin-top:12px;font-weight:600;font-size:16px}
+.ico{color:var(--signal-text);display:block}
+.steps{counter-reset:s;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:28px;padding:0;list-style:none}
+.steps li{counter-increment:s;border-top:3px solid var(--signal);padding-top:14px}
+.steps li::before{content:counter(s,decimal-leading-zero);font:700 15px var(--display);color:var(--signal-text);letter-spacing:.5px}
+.steps b{display:block;font-family:var(--display);font-size:24px;margin:6px 0}
+.steps p{margin:0;color:var(--muted);font-size:17px}
+.v2-h1{font-family:var(--display);font-size:clamp(40px,6vw,68px);line-height:1.02;margin:14px 0 16px;letter-spacing:-.5px}
+.v2-h2{font-family:var(--display);font-size:clamp(32px,4vw,46px);line-height:1.08;margin:12px 0 10px}
+.v2-sec{padding:72px 0}
+.v2-sec.tight{padding-top:0}
+.v2-lead{max-width:40em;color:var(--muted);margin:0}
+.v2-intro{padding:64px 0 24px}
+.detail{display:grid;gap:28px;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);padding:40px 0;border-top:1px solid var(--line)}
+.detail h2{font-family:var(--display);font-size:clamp(28px,3.4vw,38px);line-height:1.1;margin:10px 0 8px}
+.detail dl{margin:0;display:grid;gap:14px}
+.detail dt{font-weight:600}
+.detail dd{margin:2px 0 0;color:var(--muted)}
+.detail ul{margin:0;padding-left:20px;color:var(--muted)}
+.ptable{width:100%;border-collapse:collapse;margin-top:24px;font-size:17px}
+.ptable th,.ptable td{text-align:left;vertical-align:top;padding:12px 10px;border-bottom:1px solid var(--line)}
+.ptable th{font-family:var(--display);font-size:20px}
+.callout{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--signal);border-radius:12px;padding:16px 18px;margin-top:24px;color:var(--muted)}
+@media (max-width:760px){.detail{grid-template-columns:1fr;gap:12px}}
+@media (max-width:640px){.v2-sec{padding:52px 0}.ptable,.ptable tbody,.ptable tr,.ptable th,.ptable td{display:block;width:auto}.ptable thead{position:absolute;left:-9999px}.ptable tr{border-bottom:1px solid var(--line);padding:10px 0}.ptable th,.ptable td{border:0;padding:4px 0}.ptable td::before{content:attr(data-l);display:block;font-weight:600;font-size:14px;color:var(--signal-text)}}
+</style><main id="inhalt"><div class="v2-intro"><div class="wrap"><span class="eyebrow">Privacy and technology</span><h1 class="v2-h1">Your data stays on your iPhone.</h1><p class="v2-lead">No account, no servers of our own, no tracking. Here's exactly what ZonePit reads, what happens on device and what only leaves at your request.</p></div></div><div class="wrap"><article id="geraet" class="detail"><div><svg class="ico" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect width="18" height="11" x="3" y="11" rx="2" ry="2" /> <path d="M7 11V7a5 5 0 0 1 10 0v4" /></svg><h2>Everything on your iPhone</h2><p class="v2-lead">ZonePit has no servers of its own, no account and no analytics. There's nowhere for your data to go.</p></div><dl><div><dt>Calculation</dt><dd>Load, form, readiness and plan are calculated on device.</dd></div><div><dt>Storage</dt><dd>Plan and settings live only in the app. Delete it and they're gone.</dd></div></dl></article><article id="ki" class="detail"><div><svg class="ico" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z" /> <path d="M20 2v4" /> <path d="M22 4h-4" /> <circle cx="4" cy="20" r="2" /></svg><h2>Coach powered by Apple's Foundation Models<span class="st st-ok">Available</span></h2><p class="v2-lead">The coach uses Apple Intelligence's language model right on your iPhone. No question goes to an external AI service.</p></div><dl><div><dt>Principle</dt><dd>The app calculates, the model explains. That keeps numbers traceable.</dd></div><div><dt>Without Apple Intelligence</dt><dd>Analysis and planning work fully; changes go through a form.</dd></div><div><dt>Limits</dt><dd>No diagnoses and no medical advice. Version 1.0 adds a dedicated safety layer: no weight-loss or diet targets, and a pointer to medical advice for concerning questions. <span class="st st-soon">Coming in 1.0</span></dd></div></dl></article><article id="health" class="detail"><div><svg class="ico" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5" /></svg><h2>Apple Health</h2><p class="v2-lead">You decide in Apple Health which data ZonePit may read.</p></div><dl><div><dt>Read</dt><dd>Workouts, heart rate, power, cadence, HRV, resting heart rate, sleep, nutrition; with 1.0 also cycle data if you allow it.</dd></div><div><dt>Write</dt><dd>With 1.0 ZonePit can log completed sessions to Apple Health at your request, with its own permission and an off switch. <span class="st st-soon">Coming in 1.0</span></dd></div></dl></article><article id="optional" class="detail"><div><svg class="ico" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" /> <path d="m9 12 2 2 4-4" /></svg><h2>What can leave the device, only if you want</h2><p class="v2-lead">One single connection is optional, and you set it up yourself.</p></div><dl><div><dt>Intervals.icu</dt><dd>Planned sessions to your own Intervals.icu calendar, e.g. for Zwift. Workout targets only, no health data.</dd></div></dl></article><article id="apple" class="detail"><div><svg class="ico" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 10v2.2l1.6 1" /> <path d="m16.13 7.66-.81-4.05a2 2 0 0 0-2-1.61h-2.68a2 2 0 0 0-2 1.61l-.78 4.05" /> <path d="m7.88 16.36.8 4a2 2 0 0 0 2 1.61h2.72a2 2 0 0 0 2-1.61l.81-4.05" /> <circle cx="12" cy="12" r="6" /></svg><h2>Built for Apple</h2><p class="v2-lead">ZonePit is a native iPhone app, not a website in an app wrapper.</p></div><dl><div><dt>Today</dt><dd>HealthKit, Foundation Models, SwiftUI, Swift Charts, WidgetKit.</dd></div><div><dt>With 1.0</dt><dd>WorkoutKit for sessions on Apple Watch. <span class="st st-soon">Coming in 1.0</span></dd></div></dl></article><article id="barrierefrei" class="detail"><div><svg class="ico" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="16" cy="4" r="1" /> <path d="m18 19 1-7-6 1" /> <path d="m5 8 3-3 5.5 3-2.36 3.5" /> <path d="M4.24 14.5a5 5 0 0 0 6.88 6" /> <path d="M13.76 17.5a5 5 0 0 0-6.88-6" /></svg><h2>Accessibility</h2><p class="v2-lead">Built in from the start and checked with every new feature.</p></div><dl><div><dt>In focus</dt><dd>VoiceOver, large text (Dynamic Type), high contrast and reduced motion are checked with every feature.</dd></div><div><dt>Evidence</dt><dd>A full review of every screen follows with version 1.0.</dd></div></dl></article></div><div class="wrap"><p class="v2-lead" style="margin:8px 0 56px"><a href="../../legal/datenschutz.html?lang=en">Read the full privacy policy →</a></p></div></main>
+<footer>
+  <div class="wrap">
+    <span>© 2026 Alexander Wolpert · Made in Berlin</span>
+    <nav aria-label="Legal">
+      <a href="../../legal/impressum.html">Legal notice</a>
+      <a href="../../legal/datenschutz.html">Privacy</a>
+      <a href="../../legal/nutzungsbedingungen.html">Terms of use</a>
+      <a href="../../en/press/">Press</a>
+      <a href="../../en/#support">Support</a>
+    </nav>
+  </div>
+</footer>
+<script src="../../assets/site.js"></script>
+</body>
+</html>
