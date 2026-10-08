@@ -81,7 +81,7 @@ Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu bes
 
 ## 11. Kinder
 
-ZonePit richtet sich an Personen ab 16 Jahren.
+ZonePit ist im App Store ab 9 Jahren freigegeben und eignet sich auch für sporttreibende Kinder und Jugendliche, zum Beispiel über die Familienfreigabe. Kinder und Jugendliche unter 16 Jahren sollten die App nur mit Einverständnis ihrer Eltern nutzen. Für sie gilt ein Jugendmodus: keine Gewichts- oder Ernährungsziele, keine Coach-Antworten zu Gewicht und Ernährung, vorsichtigere Trainingssteigerung; unter 13 Jahren ist der KI-Coach ausgeschaltet. Das Alter ermittelt ZonePit aus dem Geburtsdatum in Apple Health oder deiner Angabe in der App, ausschließlich auf deinem Gerät.
 
 ## 12. Änderungen
 
@@ -174,7 +174,7 @@ You also have the right to lodge a complaint with a data protection supervisory 
 
 ## 11. Children
 
-ZonePit is intended for people aged 16 and over.
+ZonePit is rated 9+ in the App Store and is also suitable for children and teenagers who do sports, for example via Family Sharing. Children and teenagers under 16 should only use the app with their parents' consent. A youth mode applies to them: no weight or nutrition goals, no coach answers on weight and nutrition, more cautious training progression; under 13 the AI coach is turned off. ZonePit determines age from the date of birth in Apple Health or your entry in the app, exclusively on your device.
 
 ## 12. Changes
 
