@@ -1,6 +1,6 @@
 # Nutzungsbedingungen – ZonePit
 
-_Stand: 6. Oktober 2026_
+_Stand: 8. Oktober 2026_
 
 > 🇬🇧 English version below: [Terms of Use](#terms-of-use)
 
@@ -12,7 +12,7 @@ ZonePit liest Trainingsdaten aus Apple Health, wertet sie auf deinem Gerät aus,
 
 ## 2. Gesundheitshinweis – kein Medizinprodukt
 
-- ZonePit ist ein Trainingswerkzeug für gesunde Erwachsene. Die App ist **kein Medizinprodukt** und stellt **keine Diagnosen**, Therapieempfehlungen oder medizinischen Ratschläge bereit.
+- **Zweckbestimmung:** ZonePit ist eine Trainings- und Wellness-App für gesunde Menschen. Sie hilft, Training und Erholung zu planen und zu verstehen. ZonePit ist **kein Medizinprodukt**, stellt **keine Diagnosen** und gibt keine Therapieempfehlungen oder medizinischen Ratschläge. Die App ist nicht dafür bestimmt, Krankheiten zu erkennen, zu überwachen oder zu behandeln.
 - Kennzahlen, Schätzungen (z. B. FTP, Schwellenpuls, Form) und Trainingspläne beruhen auf Rechenmodellen und den Daten in Apple Health. Sie können ungenau oder unvollständig sein, etwa wenn Messwerte fehlen oder Sensoren fehlerhaft messen.
 - Lass dich vor Beginn oder Steigerung eines Trainings ärztlich beraten, insbesondere bei Vorerkrankungen, Herz-Kreislauf-Beschwerden, Schwangerschaft oder Medikamenteneinnahme.
 - Brich das Training sofort ab und suche ärztliche Hilfe, wenn du Schmerzen in der Brust, Atemnot, Schwindel oder andere ungewöhnliche Beschwerden hast.
@@ -20,7 +20,7 @@ ZonePit liest Trainingsdaten aus Apple Health, wertet sie auf deinem Gerät aus,
 
 ## 3. KI-Coach
 
-Der Coach nutzt das lokale Sprachmodell von Apple. Er erklärt Werte und Pläne und formuliert Änderungsvorschläge; Berechnungen erfolgen nachvollziehbar in der App, nicht durch das Sprachmodell. Antworten eines Sprachmodells können trotzdem unzutreffend oder missverständlich sein. Prüfe Vorschläge vor der Übernahme; Planänderungen werden erst nach deiner Bestätigung wirksam. Der Coach setzt ein Gerät mit aktiviertem Apple Intelligence voraus.
+**Dein Coach ist eine KI.** Er nutzt das lokale Sprachmodell von Apple auf deinem Gerät, und die App kennzeichnet ihn als KI. Er erklärt Werte und Pläne und formuliert Änderungsvorschläge; Berechnungen erfolgen nachvollziehbar in der App, nicht durch das Sprachmodell. Antworten eines Sprachmodells können trotzdem unzutreffend oder missverständlich sein. Prüfe Vorschläge vor der Übernahme; Planänderungen werden erst nach deiner Bestätigung wirksam. Der Coach ersetzt keine ärztliche Beratung. Er setzt ein Gerät mit aktiviertem Apple Intelligence voraus.
 
 ## 4. ZonePit Pro, Abonnement und Testphase
 
@@ -36,7 +36,9 @@ Die App greift auf Apple Health und – wenn du es einrichtest – auf Intervals
 
 ## 6. Zulässige Nutzung
 
-Die App ist für deinen persönlichen, nicht kommerziellen Gebrauch bestimmt. Es ist nicht gestattet, die App zu dekompilieren, zu verändern oder zu umgehen, soweit das Gesetz dies nicht ausdrücklich erlaubt.
+Die App ist für deinen persönlichen, nicht kommerziellen Gebrauch bestimmt.
+
+**Kinder und Jugendliche:** ZonePit ist ab 9 Jahren freigegeben. Unter 16 Jahren nutze die App bitte nur mit Einverständnis deiner Eltern; Käufe laufen über deren Apple-Account bzw. die Familienfreigabe. Für Nutzer:innen unter 16 gilt ein Jugendmodus mit vorsichtigerer Trainingssteigerung und ohne Gewichts- oder Ernährungsziele, unter 13 ist der KI-Coach ausgeschaltet. Eltern sollten das Training ihrer Kinder begleiten. Für Kinder und Jugendliche mit Vorerkrankungen gilt Abschnitt 2 besonders. Es ist nicht gestattet, die App zu dekompilieren, zu verändern oder zu umgehen, soweit das Gesetz dies nicht ausdrücklich erlaubt.
 
 ## 7. Haftung
 
@@ -68,7 +70,7 @@ zonepit@icloud.com
 
 # Terms of Use
 
-_Last updated: 6 October 2026_
+_Last updated: 8 October 2026_
 
 These terms apply to the use of the iOS app ZonePit ("App"), provided by Alexander Wolpert, Berlin (see [Legal Notice](IMPRESSUM.md)). Apple's standard Licensed Application End User License Agreement applies in addition.
 
@@ -78,7 +80,7 @@ ZonePit reads training data from Apple Health, analyses it on your device, creat
 
 ## 2. Health notice – not a medical device
 
-- ZonePit is a training tool for healthy adults. It is **not a medical device** and does **not provide diagnoses**, treatment recommendations or medical advice.
+- **Intended purpose:** ZonePit is a training and wellness app for healthy people. It helps you plan and understand training and recovery. ZonePit is **not a medical device**, does **not provide diagnoses** and gives no treatment recommendations or medical advice. The app is not intended to detect, monitor or treat any disease.
 - Metrics, estimates (e.g. FTP, threshold heart rate, form) and training plans are based on computational models and the data in Apple Health. They may be inaccurate or incomplete, for example when readings are missing or sensors measure incorrectly.
 - Consult a doctor before starting or increasing training, especially if you have pre-existing conditions, cardiovascular symptoms, are pregnant or take medication.
 - Stop training immediately and seek medical help if you experience chest pain, shortness of breath, dizziness or other unusual symptoms.
@@ -86,7 +88,7 @@ ZonePit reads training data from Apple Health, analyses it on your device, creat
 
 ## 3. AI coach
 
-The coach uses Apple's on-device language model. It explains numbers and plans and phrases suggested changes; calculations are performed transparently by the app, not by the language model. Responses from a language model may still be inaccurate or misleading. Review suggestions before accepting them; plan changes take effect only after you confirm them. The coach requires a device with Apple Intelligence enabled.
+**Your coach is an AI.** It uses Apple's language model on your device, and the app labels it as AI. It explains numbers and plans and phrases suggested changes; calculations are performed transparently by the app, not by the language model. Responses from a language model may still be inaccurate or misleading. Review suggestions before accepting them; plan changes take effect only after you confirm them. The coach does not replace medical advice. It requires a device with Apple Intelligence enabled.
 
 ## 4. ZonePit Pro, subscription and trial
 
@@ -102,7 +104,9 @@ The app accesses Apple Health and – if you set it up – Intervals.icu. The re
 
 ## 6. Permitted use
 
-The app is intended for your personal, non-commercial use. You may not decompile, modify or circumvent the app except where expressly permitted by law.
+The app is intended for your personal, non-commercial use.
+
+**Children and teenagers:** ZonePit is rated 9+. If you are under 16, please use the app only with your parents' consent; purchases go through their Apple Account or Family Sharing. Users under 16 get a youth mode with more cautious training progression and no weight or nutrition goals; under 13 the AI coach is turned off. Parents should accompany their children's training. Section 2 applies in particular to children and teenagers with pre-existing conditions. You may not decompile, modify or circumvent the app except where expressly permitted by law.
 
 ## 7. Liability
 
