@@ -54,19 +54,19 @@
 <p class="meta">Updated: October 6, 2026 · 8 min read</p>
 
 <h2>TSS: the load of one session</h2>
-<p>Training Stress Score (TSS) sums up a ride in a single number. It accounts for duration and intensity. One hour exactly at FTP equals 100 TSS.</p>
+<p>Training Stress Score (TSS) sums up a session in a single number. It accounts for duration and intensity. One hour exactly at your threshold equals 100 points. In cycling the threshold is your FTP, and this is the calculation:</p>
 <div class="formula">TSS = (duration in s × NP × IF) ÷ (FTP × 3600) × 100</div>
 <ul>
 <li><b>NP</b> (normalized power) weights hard phases more than the plain average: 30-second rolling average, raised to the fourth power, averaged, fourth root.</li>
 <li><b>IF</b> (intensity factor) is NP ÷ FTP.</li>
 </ul>
 <p><b>Example:</b> 90 minutes (5400 s), NP 200 W, FTP 250 W. IF is 200 ÷ 250 = 0.8. TSS = 5400 × 200 × 0.8 ÷ (250 × 3600) × 100 = 96.</p>
-<p>Without a power meter, load can be estimated from heart rate. That needs your threshold heart rate and is less precise.</p>
+<p>Running and swimming follow the same principle, using pace instead of power (rTSS, sTSS). Without power or pace, load can be estimated from heart rate; that needs your threshold heart rate and is less precise. How all sports end up on one scale is explained in “Load across sports”.</p>
 
 <h2>CTL: fitness</h2>
 <p>Chronic Training Load (CTL) is an exponentially weighted average of your daily TSS over about 42 days. Recent days count more, older ones less. In simplified form:</p>
 <div class="formula">CTL today = CTL yesterday + (TSS today − CTL yesterday) ÷ 42</div>
-<p>Example: CTL 58 and a ride of 100 TSS give 58 + (100 − 58) ÷ 42 = 59. Fitness rises slowly and falls slowly. That inertia reflects that adaptation takes weeks.</p>
+<p>Example: CTL 58 and a session of 100 TSS give 58 + (100 − 58) ÷ 42 = 59. Fitness rises slowly and falls slowly. That inertia reflects that adaptation takes weeks.</p>
 
 <h2>ATL: fatigue</h2>
 <p>Acute Training Load (ATL) works the same way but over about 7 days. It reacts quickly to hard days and drops fast after rest days.</p>
@@ -92,14 +92,14 @@
 <h2>Limits of the model</h2>
 <ul>
 <li>It is an approximation: sleep, stress, illness and nutrition are not part of it.</li>
-<li>The numbers are only as good as your FTP. A wrong FTP shifts every value.</li>
-<li>The curves start at zero and build up from your rides. Fitness only becomes meaningful after a few weeks of history. Where data is missing, the gap stays visible.</li>
+<li>The numbers are only as good as your thresholds (FTP, threshold pace, threshold heart rate). A wrong threshold shifts every value.</li>
+<li>The curves start at zero and build up from your workouts. Fitness only becomes meaningful after a few weeks of history. Where data is missing, the gap stays visible.</li>
 </ul>
 
-<div class="callout"><h2>In ZonePit</h2><p>ZonePit calculates TSS, fitness, fatigue and form from your rides in Apple Health, shows a forecast and explains the numbers in conversation with the coach. The formulas are openly documented, and the coach never does the maths itself.</p><a class="btn" href="../../../en/#faq">Coming soon to the App Store</a></div>
+<div class="callout"><h2>In ZonePit</h2><p>ZonePit calculates load, fitness, fatigue and form from your workouts across all sports in Apple Health, shows a forecast and explains the numbers in conversation with the coach. The formulas are openly documented, and the coach never does the maths itself.</p><a class="btn" href="../../../en/#faq">Coming soon to the App Store</a></div>
 
 <h2>Keep reading</h2>
-<div class="related"><a href="../../../en/guides/ramp-rate-and-recovery-weeks/">Ramp rate and recovery weeks: how fast is too fast?<span>How fast your fitness may grow, when a recovery week is due and how to tell whether you …</span></a><a href="../../../en/guides/daily-readiness-hrv-resting-heart-rate-sleep/">Daily readiness: what HRV, resting heart rate and sleep tell you<span>How to read daily readiness from HRV, resting heart rate, sleep and wellbeing, why …</span></a></div>
+<div class="related"><a href="../../../en/guides/load-across-sports/">Load across sports: cycling, running, swimming and strength on one scale<span>How ZonePit makes sessions from different sports comparable, how precise that is in each …</span></a><a href="../../../en/guides/ramp-rate-and-recovery-weeks/">Ramp rate and recovery weeks: how fast is too fast?<span>How fast your fitness may grow, when a recovery week is due and how to tell whether you …</span></a><a href="../../../en/guides/daily-readiness-hrv-resting-heart-rate-sleep/">Daily readiness: what HRV, resting heart rate and sleep tell you<span>How to read daily readiness from HRV, resting heart rate, sleep and wellbeing, why …</span></a></div>
 <h2>Sources</h2>
 <ul class="sources"><li>Hunter Allen, Andrew Coggan: <i>Training and Racing with a Power Meter</i> (TSS, NP, IF, CTL, ATL, TSB).</li><li>E. W. Banister et al. (1975): <i>A systems model of training for athletic performance</i> (basis of the fitness-fatigue model).</li></ul>
 <p class="sources">ZonePit is a training and wellness app, not a medical device.</p>

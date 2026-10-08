@@ -2,13 +2,13 @@ TEXT BLOCKS (ENGLISH)
 =====================
 
 ONE SENTENCE
-ZonePit is the iPhone app for cyclists who want to understand their training – with an AI coach that runs entirely on the device.
+ZonePit is a training and recovery coach for iPhone: it plans cycling, running, swimming and strength from Apple Health and runs entirely on the device.
 
 SHORT DESCRIPTION (ABOUT 35 WORDS)
-ZonePit reads rides from Apple Health, calculates load and form transparently, plans the week and explains everything with a local AI coach. No account, no servers, no tracking.
+ZonePit reads workouts, sleep and recovery data from Apple Health, plans the week across all sports around readiness and goals, and shows openly how every number comes about. An AI coach explains it all right on the iPhone. No account, no servers, no tracking.
 
 BOILERPLATE (ABOUT 80 WORDS)
-ZonePit is a personal AI coach for cyclists that runs entirely on the iPhone. The app reads workouts from Apple Health, transparently calculates training load (TSS), fitness, fatigue and form (CTL, ATL, TSB), suggests a weekly plan and explains its numbers in conversation with a coach built on Apple Intelligence. There is no account, no cloud and no tracking. ZonePit is developed as a one-person project in Berlin by Alexander Wolpert.
+ZonePit is a training and recovery coach that runs entirely on the iPhone. The app reads workouts, sleep and recovery data from Apple Health and plans cycling, running, swimming and strength in one shared weekly plan, adapted to readiness and goals. For cycling it offers full power depth, all the way to export to Zwift. Every metric is openly documented with its calculation and sources, and an AI coach built on Apple Intelligence explains them. There is no account, no cloud and no tracking. ZonePit is developed as a one-person project in Berlin by Alexander Wolpert.
 
 
 https://zonepit.github.io/
