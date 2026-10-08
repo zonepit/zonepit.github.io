@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en" data-single="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How we calculate: every metric in ZonePit – ZonePit</title>
+<meta name="description" content="Inputs, calculation in plain words, uncertainty and sources for load, fitness and form, FTP, zones, readiness, sleep score, sleep debt, VO₂max and steps.">
+<meta name="robots" content="noindex,follow">
+<link rel="canonical" href="https://zonepit.github.io/en/guides/how-we-calculate/">
+<link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/how-we-calculate/">
+<link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/so-berechnen-wir-das/">
+<link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/how-we-calculate/">
+<meta name="theme-color" content="#F2EFEA" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0A0D10" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../../../assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../../../assets/apple-touch-icon.png">
+<meta property="og:site_name" content="ZonePit">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="How we calculate: every metric in ZonePit – ZonePit">
+<meta property="og:description" content="Inputs, calculation in plain words, uncertainty and sources for load, fitness and form, FTP, zones, readiness, sleep score, sleep debt, VO₂max and steps.">
+<meta property="og:url" content="https://zonepit.github.io/en/guides/how-we-calculate/">
+<meta property="og:image" content="https://zonepit.github.io/assets/og-image-en.png">
+<meta property="og:image:alt" content="ZonePit – Your AI training coach for iPhone">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="../../../assets/fonts/BarlowSemiCondensed-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../../assets/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How we calculate: every metric in ZonePit","description":"Inputs, calculation in plain words, uncertainty and sources for load, fitness and form, FTP, zones, readiness, sleep score, sleep debt, VO₂max and steps.","inLanguage":"en","datePublished":"2026-10-06","dateModified":"2026-10-06","mainEntityOfPage":"https://zonepit.github.io/en/guides/how-we-calculate/","image":"https://zonepit.github.io/assets/og-image-en.png","author":{"@type":"Person","name":"Alexander Wolpert"},"publisher":{"@type":"Organization","name":"ZonePit","logo":{"@type":"ImageObject","url":"https://zonepit.github.io/assets/app-icon-512.png"}}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://zonepit.github.io/en/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://zonepit.github.io/en/guides/"},{"@type":"ListItem","position":3,"name":"How we calculate: every metric in ZonePit","item":"https://zonepit.github.io/en/guides/how-we-calculate/"}]}</script>
+</head>
+<body>
+<a class="skip" href="#inhalt">Skip to content</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../../../en/" aria-label="ZonePit">
+      <img src="../../../assets/favicon-192.png" alt="" width="38" height="38">
+      <span class="wordmark"><span class="r">Zone</span><span class="c">Pit</span></span>
+    </a>
+    <nav class="main" aria-label="Main navigation">
+      <a class="hide-sm" href="../../../en/guides/">Guides</a>
+      <div class="lang" role="group" aria-label="Language / Sprache">
+        <a href="../../../en/guides/how-we-calculate/" hreflang="en" lang="en" aria-current="true" data-lang-link="en">EN</a>
+        <a href="../../../de/ratgeber/so-berechnen-wir-das/" hreflang="de" lang="de" data-lang-link="de">DE</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<main id="inhalt" class="article">
+<p class="crumbs"><a href="../../../en/">Home</a> › <a href="../../../en/guides/">Guides</a></p>
+<span class="eyebrow">Guides</span>
+<h1>How we calculate: every metric in ZonePit</h1>
+<p class="lead">ZonePit shows not just numbers but how they come about. For every metric, this page says what goes in, how it is calculated, how precise it is and where the method comes from.</p>
+<p class="meta">Updated: October 6, 2026 · 12 min read</p>
+
+<h2>Principles</h2>
+<ul>
+<li><b>One source:</b> all measurements come from Apple Health. What is missing there, ZonePit does not make up.</li>
+<li><b>Comparison with yourself:</b> recovery values are measured against your own normal range, not population values.</li>
+<li><b>Gaps stay gaps:</b> if a value is missing, it drops out. Where ZonePit estimates, it says so.</li>
+<li><b>Uncertainty is visible:</b> load shows its basis, readiness and sleep score show how reliable they are.</li>
+<li><b>On your iPhone:</b> all calculations run locally.</li>
+</ul>
+
+<h2>Load</h2>
+<p><b>Input:</b> power, speed or heart rate of a workout and your threshold (FTP, threshold pace or threshold heart rate).</p>
+<p><b>Calculation:</b> one hour exactly at threshold gives 100 points. For each sport, ZonePit uses the most precise measure available:</p>
+<ul>
+<li><b>Cycling with power (TSS):</b> duration × normalised power × intensity, divided by FTP × 1 hour, times 100. Intensity is normalised power divided by FTP.</li>
+<li><b>Running (rTSS) and swimming (sTSS) with pace:</b> duration in hours × intensity² × 100, for swimming intensity³, because water resistance rises more steeply with speed. Intensity is speed divided by threshold speed.</li>
+<li><b>Heart rate only (hrTSS):</b> from the heart rate of every second relative to threshold heart rate.</li>
+</ul>
+<p><b>Uncertainty:</b> power is most precise, pace good, heart rate an estimate that gets less precise for intervals. Every workout shows its basis. If less than 60 % of a workout is covered by measurements, ZonePit calculates no load and says why.</p>
+
+<h2>Fitness, fatigue and form</h2>
+<p><b>Input:</b> the daily load of all workouts.</p>
+<p><b>Calculation:</b> fitness is the exponentially weighted rolling average of daily load over 42 days, fatigue the same average over 7 days. Form is fitness minus the previous day's fatigue. The projection in your plan continues this as if you complete the planned sessions exactly; days without a session count as 0.</p>
+<p><b>Uncertainty:</b> 42 and 7 days are conventions, not values measured for you. The projection is a calculation from the plan, not a prediction of your performance: illness, sleep and readiness do not enter it.</p>
+
+<h2>FTP suggestion and best efforts</h2>
+<p><b>Input:</b> rides with a power meter from the last 90 days with at least 80 % power coverage.</p>
+<p><b>Calculation:</b> best efforts are the highest average power over 5 seconds and 1, 5 and 20 minutes, only from sections without gaps. The FTP suggestion is 95 % of the best 20-minute value. Rides recorded twice count once.</p>
+<p><b>Uncertainty:</b> the suggestion is only as good as your hardest ride. If you never went all out for 20 minutes, it is too low. It is never applied automatically.</p>
+
+<h2>Zones</h2>
+<ul>
+<li><b>Power:</b> 7 zones after Coggan in percent of FTP (lower limits 0, 55, 76, 91, 106, 121, 151 %). Time in zones uses the FTP that applied on the day of the workout.</li>
+<li><b>Running:</b> 7 pace zones in percent of threshold speed, derived from Joe Friel's zones.</li>
+<li><b>Heart rate:</b> 5 zones with lower limits of 50, 60, 70, 80 and 90 %, either of heart rate reserve (Karvonen, needs resting heart rate) or of maximum heart rate.</li>
+<li><b>Maximum heart rate:</b> the highest plausible measured value (100–230) from your workouts of the last 12 months. If there is none, Tanaka's formula: 208 − 0.7 × age. Your own value always takes priority.</li>
+</ul>
+<p><b>Uncertainty:</b> age formulas are off by 10 beats or more for many people. A measured value is better, your own test best.</p>
+
+<h2>Readiness</h2>
+<p><b>Input:</b> HRV, resting heart rate, sleep score and your wellbeing.</p>
+<p><b>Calculation:</b> HRV and resting heart rate as a 7-day average against your 60-day band (mean ± 0.5 standard deviations), sleep against your 28-night average. The signals produce a level and a number from 0 to 100. Details are in the guide “Daily readiness”.</p>
+<p><b>Uncertainty:</b> ZonePit shows reliability (high, medium, low) by the number of available signals. Apple stores HRV as SDNN, most studies use rMSSD. The method is applied to your own trend, not validated on Apple values.</p>
+
+<h2>Sleep score</h2>
+<p><b>Input:</b> sleep duration, bedtime and time awake during the night from Apple Health, your sleep goal.</p>
+<p><b>Calculation:</b> 0 to 100 points from three parts, weighted like Apple's:</p>
+<ul>
+<li><b>Duration (50):</b> full points from your sleep goal, then linearly fewer down to 0 at 4 hours short. Default goal 8 hours, from age 65 7.5.</li>
+<li><b>Regularity (30):</b> distance of your bedtime from your usual time over the last 14 days. Full points up to 30 minutes, none from 2 hours. Needs 5 nights.</li>
+<li><b>Interruptions (20):</b> time awake after falling asleep. Full points up to 20 minutes, none from 60 minutes.</li>
+</ul>
+<p>If a part is missing, the rest is scaled up to 100 and reliability drops. Levels: under 41 very low, under 61 low, under 81 ok, under 96 good, above that very good.</p>
+<p><b>Uncertainty:</b> ZonePit deliberately does not rate sleep stages (deep, REM). Watches estimate them quite imprecisely compared with a sleep lab. Apple's own sleep score cannot be read by other apps; ZonePit's value may differ from it.</p>
+
+<h2>Sleep debt and bedtime</h2>
+<p><b>Sleep debt:</b> the sum of hours you fell short of your sleep goal over the last 7 nights, at most 10 hours. Extra sleep one night does not make up for another.</p>
+<p><b>Bedtime:</b> your usual wake-up time (median of the last 14 days, split into weekdays and weekends if they differ by more than an hour) minus sleep goal minus usual time to fall asleep (15 minutes without data). From 2 hours of debt 15 minutes earlier, from 4 hours 30 minutes earlier.</p>
+<p><b>Uncertainty:</b> time to fall asleep is approximated from time in bed. The compensation steps are our own choice, not study values.</p>
+
+<h2>VO₂max</h2>
+<p><b>Input and calculation:</b> ZonePit takes Apple's estimate from Apple Health and shows it as a trend. There is no calculation of its own.</p>
+<p><b>Uncertainty:</b> Apple estimates VO₂max from heart rate and pace during outdoor walks, runs and hikes. Single values can be off by several ml/kg/min. The trend over weeks is what carries meaning.</p>
+
+<h2>Steps</h2>
+<p><b>Calculation:</b> daily total via Apple Health's statistics, which correctly merges iPhone and Apple Watch without counting twice. The default goal is 7,000 steps.</p>
+<p><b>Why 7,000:</b> large analyses show the biggest health benefit up to about 7,000 to 8,000 steps, after which it grows more slowly. The well-known 10,000 comes from an advertising campaign. You can change your goal.</p>
+
+<div class="note-box">ZonePit is a training and wellness app and not a medical device. None of these metrics is a diagnosis. If you have symptoms, talk to your doctor.</div>
+
+<div class="callout"><h2>In ZonePit</h2><p>Behind every info button in the app is the matching section of this page. When a calculation changes, this page changes too.</p><a class="btn" href="../../../en/#faq">Coming soon to the App Store</a></div>
+
+<h2>Keep reading</h2>
+<div class="related"><a href="../../../en/guides/daily-readiness-hrv-resting-heart-rate-sleep/">Daily readiness: what HRV, resting heart rate and sleep tell you<span>How to read daily readiness from HRV, resting heart rate, sleep and wellbeing, why …</span></a><a href="../../../en/guides/tss-ctl-atl-tsb-explained/">TSS, CTL, ATL and TSB explained simply<span>Load, fitness, fatigue and form: how TSS, CTL, ATL and TSB are calculated, with a worked …</span></a></div>
+<h2>Sources</h2>
+<ul class="sources"><li>Andrew Coggan: Training Stress Score, Normalized Power and power zones, TrainingPeaks; Hunter Allen, Andrew Coggan: <i>Training and Racing with a Power Meter</i>.</li><li>Eric Banister et al. (1975): <i>A system model of training for athletic performance</i>, Australian Journal of Sports Medicine 7.</li><li>Joe Friel: pace and heart rate zones for run training.</li><li>Tanaka H, Monahan KD, Seals DR (2001): <i>Age-predicted maximal heart rate revisited</i>. Journal of the American College of Cardiology 37(1).</li><li>Australian Institute of Sport: <i>Heart Rate Variability: Best Practice Guide</i>.</li><li>Paluch AE et al. (2022): <i>Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts</i>. The Lancet Public Health 7(3).</li><li>Apple: <i>Using Apple Watch to estimate cardio fitness with VO₂ max</i> (white paper).</li></ul>
+<p class="sources">ZonePit is a training tool, not a medical device.</p>
+</main>
+<footer>
+  <div class="wrap">
+    <span>© 2026 Alexander Wolpert · Made in Berlin</span>
+    <nav aria-label="Legal">
+      <a href="../../../legal/impressum.html">Legal notice</a>
+      <a href="../../../legal/datenschutz.html">Privacy</a>
+      <a href="../../../legal/nutzungsbedingungen.html">Terms of use</a>
+      <a href="../../../en/press/">Press</a>
+      <a href="../../../en/#support">Support</a>
+    </nav>
+  </div>
+</footer>
+<script src="../../../assets/site.js"></script>
+</body>
+</html>

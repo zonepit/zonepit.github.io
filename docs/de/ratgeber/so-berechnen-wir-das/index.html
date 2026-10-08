@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="de" data-single="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>So berechnen wir das: alle Kennzahlen in ZonePit – ZonePit</title>
+<meta name="description" content="Eingangswerte, Rechenweg in Worten, Unsicherheit und Quellen für Belastung, Fitness und Form, FTP, Zonen, Tagesform, Schlafwert, Schlafdefizit, VO₂max und Schritte.">
+<meta name="robots" content="noindex,follow">
+<link rel="canonical" href="https://zonepit.github.io/de/ratgeber/so-berechnen-wir-das/">
+<link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/so-berechnen-wir-das/">
+<link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/how-we-calculate/">
+<link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/how-we-calculate/">
+<meta name="theme-color" content="#F2EFEA" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0A0D10" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="../../../assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="../../../assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="../../../assets/apple-touch-icon.png">
+<meta property="og:site_name" content="ZonePit">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="de_DE">
+<meta property="og:title" content="So berechnen wir das: alle Kennzahlen in ZonePit – ZonePit">
+<meta property="og:description" content="Eingangswerte, Rechenweg in Worten, Unsicherheit und Quellen für Belastung, Fitness und Form, FTP, Zonen, Tagesform, Schlafwert, Schlafdefizit, VO₂max und Schritte.">
+<meta property="og:url" content="https://zonepit.github.io/de/ratgeber/so-berechnen-wir-das/">
+<meta property="og:image" content="https://zonepit.github.io/assets/og-image.png">
+<meta property="og:image:alt" content="ZonePit – Dein KI-Trainingscoach für das iPhone">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preload" href="../../../assets/fonts/BarlowSemiCondensed-Bold.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../../assets/site.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"So berechnen wir das: alle Kennzahlen in ZonePit","description":"Eingangswerte, Rechenweg in Worten, Unsicherheit und Quellen für Belastung, Fitness und Form, FTP, Zonen, Tagesform, Schlafwert, Schlafdefizit, VO₂max und Schritte.","inLanguage":"de","datePublished":"2026-10-06","dateModified":"2026-10-06","mainEntityOfPage":"https://zonepit.github.io/de/ratgeber/so-berechnen-wir-das/","image":"https://zonepit.github.io/assets/og-image.png","author":{"@type":"Person","name":"Alexander Wolpert"},"publisher":{"@type":"Organization","name":"ZonePit","logo":{"@type":"ImageObject","url":"https://zonepit.github.io/assets/app-icon-512.png"}}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Start","item":"https://zonepit.github.io/de/"},{"@type":"ListItem","position":2,"name":"Ratgeber","item":"https://zonepit.github.io/de/ratgeber/"},{"@type":"ListItem","position":3,"name":"So berechnen wir das: alle Kennzahlen in ZonePit","item":"https://zonepit.github.io/de/ratgeber/so-berechnen-wir-das/"}]}</script>
+</head>
+<body>
+<a class="skip" href="#inhalt">Zum Inhalt springen</a>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../../../de/" aria-label="ZonePit">
+      <img src="../../../assets/favicon-192.png" alt="" width="38" height="38">
+      <span class="wordmark"><span class="r">Zone</span><span class="c">Pit</span></span>
+    </a>
+    <nav class="main" aria-label="Hauptnavigation">
+      <a class="hide-sm" href="../../../de/ratgeber/">Ratgeber</a>
+      <div class="lang" role="group" aria-label="Sprache / Language">
+        <a href="../../../de/ratgeber/so-berechnen-wir-das/" hreflang="de" lang="de" aria-current="true" data-lang-link="de">DE</a>
+        <a href="../../../en/guides/how-we-calculate/" hreflang="en" lang="en" data-lang-link="en">EN</a>
+      </div>
+    </nav>
+  </div>
+</header>
+<main id="inhalt" class="article">
+<p class="crumbs"><a href="../../../de/">Start</a> › <a href="../../../de/ratgeber/">Ratgeber</a></p>
+<span class="eyebrow">Ratgeber</span>
+<h1>So berechnen wir das: alle Kennzahlen in ZonePit</h1>
+<p class="lead">ZonePit zeigt nicht nur Zahlen, sondern auch, wie sie entstehen. Hier steht für jede Kennzahl, was hineingeht, wie gerechnet wird, wie genau das ist und woher die Methode kommt.</p>
+<p class="meta">Stand: 6. Oktober 2026 · 12 Min. Lesezeit</p>
+
+<h2>Grundsätze</h2>
+<ul>
+<li><b>Eine Quelle:</b> Alle Messwerte kommen aus Apple Health. Was dort fehlt, rechnet ZonePit nicht herbei.</li>
+<li><b>Vergleich mit dir selbst:</b> Erholungswerte werden an deinem eigenen Normalbereich gemessen, nicht an Bevölkerungswerten.</li>
+<li><b>Lücken bleiben Lücken:</b> Fehlt ein Wert, entfällt er. Wo ZonePit schätzt, steht das dabei.</li>
+<li><b>Unsicherheit sichtbar:</b> Belastung zeigt ihre Grundlage, Tagesform und Schlafwert zeigen, wie belastbar sie sind.</li>
+<li><b>Auf deinem iPhone:</b> Alle Rechnungen laufen lokal.</li>
+</ul>
+
+<h2>Belastung</h2>
+<p><b>Eingang:</b> Leistung, Geschwindigkeit oder Herzfrequenz eines Trainings und deine Schwelle (FTP, Schwellenpace oder Schwellenpuls).</p>
+<p><b>Rechnung:</b> Eine Stunde genau an der Schwelle ergibt 100 Punkte. ZonePit nimmt je Sportart die genaueste vorhandene Größe:</p>
+<ul>
+<li><b>Rad mit Leistung (TSS):</b> Dauer × normierte Leistung × Intensität, geteilt durch FTP × 1 Stunde, mal 100. Die Intensität ist normierte Leistung geteilt durch FTP.</li>
+<li><b>Laufen (rTSS) und Schwimmen (sTSS) mit Pace:</b> Dauer in Stunden × Intensität² × 100, beim Schwimmen Intensität³, weil der Wasserwiderstand mit dem Tempo stärker steigt. Die Intensität ist Geschwindigkeit geteilt durch Schwellengeschwindigkeit.</li>
+<li><b>Nur Herzfrequenz (hrTSS):</b> aus der Herzfrequenz jeder Sekunde im Verhältnis zum Schwellenpuls.</li>
+</ul>
+<p><b>Unsicherheit:</b> Leistung ist am genauesten, Pace gut, Herzfrequenz eine Schätzung, die bei Intervallen ungenauer wird. Jedes Training zeigt seine Grundlage. Sind weniger als 60 % eines Trainings mit Messwerten abgedeckt, rechnet ZonePit keine Belastung und sagt warum.</p>
+
+<h2>Fitness, Ermüdung und Form</h2>
+<p><b>Eingang:</b> die tägliche Belastung aller Trainings.</p>
+<p><b>Rechnung:</b> Fitness ist der gleitende, exponentiell gewichtete Schnitt der Tagesbelastung über 42 Tage, Ermüdung derselbe Schnitt über 7 Tage. Form ist Fitness minus Ermüdung des Vortags. Die Fortschreibung im Plan rechnet so weiter, als würdest du die geplanten Einheiten genau absolvieren; Tage ohne Einheit zählen mit 0.</p>
+<p><b>Unsicherheit:</b> 42 und 7 Tage sind Konventionen, keine für dich gemessenen Werte. Die Fortschreibung ist eine Rechnung aus dem Plan, keine Vorhersage deiner Leistung: Krankheit, Schlaf und Tagesform gehen nicht ein.</p>
+
+<h2>FTP-Vorschlag und Bestwerte</h2>
+<p><b>Eingang:</b> Radfahrten mit Leistungsmesser der letzten 90 Tage, mit mindestens 80 % Leistungsabdeckung.</p>
+<p><b>Rechnung:</b> Bestwerte sind die höchsten Durchschnittsleistungen über 5 Sekunden sowie 1, 5 und 20 Minuten, nur aus Abschnitten ohne Lücken. Der FTP-Vorschlag ist 95 % des besten 20-Minuten-Werts. Doppelt erfasste Fahrten zählen einmal.</p>
+<p><b>Unsicherheit:</b> Der Vorschlag ist nur so gut wie deine härteste Fahrt. Bist du 20 Minuten nie voll gefahren, liegt er zu niedrig. Er wird nie automatisch übernommen.</p>
+
+<h2>Zonen</h2>
+<ul>
+<li><b>Leistung:</b> 7 Zonen nach Coggan in Prozent der FTP (Untergrenzen 0, 55, 76, 91, 106, 121, 151 %). Die Zeit in Zonen rechnet mit der FTP, die am Tag des Trainings galt.</li>
+<li><b>Laufen:</b> 7 Pace-Zonen in Prozent der Schwellengeschwindigkeit, abgeleitet aus den Zonen von Joe Friel.</li>
+<li><b>Puls:</b> 5 Zonen mit Untergrenzen 50, 60, 70, 80 und 90 %, wahlweise der Herzfrequenzreserve (Karvonen, braucht den Ruhepuls) oder der maximalen Herzfrequenz.</li>
+<li><b>Maximale Herzfrequenz:</b> der höchste plausible Messwert (100–230) deiner Trainings der letzten 12 Monate. Gibt es keinen, die Formel nach Tanaka: 208 − 0,7 × Alter. Dein eigener Wert hat immer Vorrang.</li>
+</ul>
+<p><b>Unsicherheit:</b> Altersformeln liegen bei vielen Menschen um 10 Schläge oder mehr daneben. Ein gemessener Wert ist besser, ein eigener Test am besten.</p>
+
+<h2>Tagesform</h2>
+<p><b>Eingang:</b> HRV, Ruhepuls, Schlafwert und dein Befinden.</p>
+<p><b>Rechnung:</b> HRV und Ruhepuls als 7-Tage-Schnitt gegen dein 60-Tage-Band (Mittel ± 0,5 Standardabweichung), Schlaf gegen dein 28-Nächte-Mittel. Aus den Signalen entstehen eine Stufe und eine Zahl von 0 bis 100. Die Details stehen im Ratgeber-Artikel „Tagesform“.</p>
+<p><b>Unsicherheit:</b> ZonePit zeigt die Belastbarkeit (hoch, mittel, niedrig) nach Zahl der vorhandenen Signale. Apple speichert die HRV als SDNN, die meisten Studien nutzen rMSSD. Die Methode ist auf den eigenen Trend übertragen, nicht an Apple-Werten geprüft.</p>
+
+<h2>Schlafwert</h2>
+<p><b>Eingang:</b> Schlafdauer, Einschlafzeit und Wachzeit in der Nacht aus Apple Health, dein Schlafziel.</p>
+<p><b>Rechnung:</b> 0 bis 100 Punkte aus drei Teilen, gewichtet wie bei Apple:</p>
+<ul>
+<li><b>Dauer (50):</b> volle Punkte ab deinem Schlafziel, dann linear weniger bis 0 bei 4 Stunden Rückstand. Standardziel 8 Stunden, ab 65 Jahren 7,5.</li>
+<li><b>Regelmäßigkeit (30):</b> Abstand der Einschlafzeit zu deinem üblichen Wert der letzten 14 Tage. Bis 30 Minuten volle Punkte, ab 2 Stunden keine. Braucht 5 Nächte.</li>
+<li><b>Unterbrechungen (20):</b> Wachzeit nach dem Einschlafen. Bis 20 Minuten volle Punkte, ab 60 Minuten keine.</li>
+</ul>
+<p>Fehlt ein Teil, wird der Rest auf 100 hochgerechnet und die Belastbarkeit sinkt. Stufen: unter 41 sehr niedrig, unter 61 niedrig, unter 81 ok, unter 96 gut, darüber sehr gut.</p>
+<p><b>Unsicherheit:</b> Schlafphasen (Tief-, REM-Schlaf) bewertet ZonePit bewusst nicht. Uhren schätzen sie im Vergleich zum Schlaflabor deutlich ungenau. Apples eigener Schlafwert ist für andere Apps nicht lesbar; ZonePits Wert kann davon abweichen.</p>
+
+<h2>Schlafdefizit und Schlafenszeit</h2>
+<p><b>Schlafdefizit:</b> Summe der Stunden, die dir in den letzten 7 Nächten zum Schlafziel gefehlt haben, höchstens 10 Stunden. Mehr Schlaf in einer Nacht gleicht eine andere nicht aus.</p>
+<p><b>Schlafenszeit:</b> deine übliche Aufwachzeit (Median der letzten 14 Tage, getrennt nach Werktag und Wochenende, wenn sie mehr als eine Stunde auseinanderliegen) minus Schlafziel minus übliche Einschlafdauer (ohne Daten 15 Minuten). Ab 2 Stunden Defizit 15 Minuten früher, ab 4 Stunden 30 Minuten früher.</p>
+<p><b>Unsicherheit:</b> Die Einschlafdauer ist aus der Zeit im Bett angenähert. Die Ausgleichsstufen sind eine eigene Festlegung, keine Studienwerte.</p>
+
+<h2>VO₂max</h2>
+<p><b>Eingang und Rechnung:</b> ZonePit übernimmt Apples Schätzung aus Apple Health und zeigt sie als Verlauf. Eine eigene Berechnung gibt es nicht.</p>
+<p><b>Unsicherheit:</b> Apple schätzt die VO₂max aus Puls und Tempo bei Gehen, Laufen und Wandern im Freien. Einzelwerte können um mehrere ml/kg/min danebenliegen. Aussagekräftig ist der Trend über Wochen.</p>
+
+<h2>Schritte</h2>
+<p><b>Rechnung:</b> Tagessumme über die Statistik von Apple Health, die iPhone und Apple Watch richtig zusammenführt, ohne doppelt zu zählen. Das Standardziel ist 7.000 Schritte.</p>
+<p><b>Warum 7.000:</b> Große Auswertungen zeigen den größten Gesundheitsnutzen bis etwa 7.000 bis 8.000 Schritte, danach wächst er langsamer. Die bekannten 10.000 stammen aus einer Werbekampagne. Du kannst dein Ziel ändern.</p>
+
+<div class="note-box">ZonePit ist eine Trainings- und Wellness-App und kein Medizinprodukt. Keine dieser Kennzahlen ist eine Diagnose. Bei Beschwerden sprich mit deiner Ärztin oder deinem Arzt.</div>
+
+<div class="callout"><h2>In ZonePit</h2><p>Hinter jedem Info-Knopf in der App steht der passende Abschnitt dieser Seite. Ändert sich eine Berechnung, ändert sich auch diese Seite.</p><a class="btn" href="../../../de/#faq">Bald im App Store</a></div>
+
+<h2>Weiterlesen</h2>
+<div class="related"><a href="../../../de/ratgeber/tagesform-hrv-ruhepuls-schlaf/">Tagesform: was HRV, Ruhepuls und Schlaf verraten<span>Wie du aus HRV, Ruhepuls, Schlaf und Befinden die Tagesform liest, warum der Vergleich …</span></a><a href="../../../de/ratgeber/tss-ctl-atl-tsb-erklaert/">TSS, CTL, ATL und TSB einfach erklärt<span>Belastung, Fitness, Ermüdung und Form: wie TSS, CTL, ATL und TSB berechnet werden, mit …</span></a></div>
+<h2>Quellen</h2>
+<ul class="sources"><li>Andrew Coggan: Training Stress Score, Normalized Power und Leistungszonen, TrainingPeaks; Hunter Allen, Andrew Coggan: <i>Training and Racing with a Power Meter</i>.</li><li>Eric Banister u. a. (1975): <i>A system model of training for athletic performance</i>, Australian Journal of Sports Medicine 7.</li><li>Joe Friel: Pace- und Pulszonen für das Lauftraining.</li><li>Tanaka H, Monahan KD, Seals DR (2001): <i>Age-predicted maximal heart rate revisited</i>. Journal of the American College of Cardiology 37(1).</li><li>Australian Institute of Sport: <i>Heart Rate Variability: Best Practice Guide</i>.</li><li>Paluch AE u. a. (2022): <i>Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts</i>. The Lancet Public Health 7(3).</li><li>Apple: <i>Using Apple Watch to estimate cardio fitness with VO₂ max</i> (Whitepaper).</li></ul>
+<p class="sources">ZonePit ist ein Trainingswerkzeug und kein Medizinprodukt.</p>
+</main>
+<footer>
+  <div class="wrap">
+    <span>© 2026 Alexander Wolpert · Made in Berlin</span>
+    <nav aria-label="Rechtliches">
+      <a href="../../../legal/impressum.html">Impressum</a>
+      <a href="../../../legal/datenschutz.html">Datenschutz</a>
+      <a href="../../../legal/nutzungsbedingungen.html">Nutzungsbedingungen</a>
+      <a href="../../../de/presse/">Presse</a>
+      <a href="../../../de/#support">Support</a>
+    </nav>
+  </div>
+</footer>
+<script src="../../../assets/site.js"></script>
+</body>
+</html>
