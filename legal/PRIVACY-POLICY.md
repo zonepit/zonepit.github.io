@@ -1,10 +1,10 @@
 # Datenschutzerklärung – ZonePit
 
-_Stand: 6. Oktober 2026_
+_Stand: 8. Oktober 2026_
 
 > 🇬🇧 English version below: [Privacy Policy](#privacy-policy)
 
-ZonePit ist ein persönlicher Radtrainings-Coach für iPhone und iPad. Die App ist so gebaut, dass deine Daten bei dir bleiben: Wir betreiben **keine Server**, du brauchst **kein Konto**, und es gibt **kein Tracking**. Alle Auswertungen und der KI-Coach laufen **auf deinem Gerät**.
+ZonePit ist ein persönlicher Trainings- und Gesundheitscoach für iPhone und iPad (Rad, Laufen, Schwimmen, Kraft). Die App ist so gebaut, dass deine Daten bei dir bleiben: Wir betreiben **keine Server**, du brauchst **kein Konto**, und es gibt **kein Tracking**. Alle Auswertungen und der KI-Coach laufen **auf deinem Gerät**.
 
 ## 1. Verantwortlicher
 
@@ -15,13 +15,17 @@ Alexander Wolpert, Teisnacher Straße 10, 10318 Berlin, Deutschland, zonepit@icl
 
 Mit deiner ausdrücklichen Erlaubnis liest ZonePit folgende Daten aus Apple Health:
 
-- Trainings (Workouts) mit Sportart, Dauer und Quelle (z. B. Wahoo, Zwift, Apple Watch)
-- Herzfrequenz, Ruhepuls und Herzfrequenzvariabilität (HRV)
-- Schlafanalyse (Schlafphasen und -dauer)
-- Radleistung, Trittfrequenz und Functional Threshold Power (FTP)
-- Distanz (Rad sowie Gehen/Laufen) und aktive Energie
+- **Trainings** (Workouts) mit Sportart, Dauer, Quelle (z. B. Wahoo, Zwift, Apple Watch) und den Wetterangaben, die die Quelle mitspeichert
+- **Trainingswerte:** Herzfrequenz, Radleistung, Trittfrequenz, Functional Threshold Power (FTP), Laufgeschwindigkeit, Distanzen (Rad, Gehen/Laufen), aktive Energie
+- **Herz und Erholung:** Ruhepuls, Herzfrequenzvariabilität (HRV), Schlafanalyse (Schlafphasen und -dauer), Atemfrequenz, Blutsauerstoff, Handgelenktemperatur im Schlaf, VO₂max
+- **Aktivität und Körper:** Schritte, Ruheenergie, Gewicht, Körperfettanteil, magere Körpermasse
+- **Ernährung** (wenn eine Ernährungs-App sie in Apple Health speichert): Energie, Kohlenhydrate, Eiweiß, Wasser
+- **Profil:** Geburtsdatum (für altersabhängige Werte wie maximale Herzfrequenz und Schlafziel) und biologisches Geschlecht (für Einordnungen und das Angebot der Zyklusfunktion)
+- **Nur wenn du die Zyklusfunktion aktivierst** (eigene Abfrage, jederzeit abschaltbar): Menstruation, Ovulationstests, Basaltemperatur, Zervixschleim, Zwischenblutungen
 
-**Zweck:** Auswertung deines Trainings (Belastung, Fitness, Ermüdung, Form), Einschätzung deiner Tagesform aus HRV, Ruhepuls und Schlaf, Schätzung von Schwellenwerten und Erstellung sowie Anpassung deines Trainingsplans.
+Weitere Daten (z. B. Laufleistung, Schwimmdaten, Trainingsrouten, Gemütszustand) fragt ZonePit erst an, wenn du die dazugehörige Funktion nutzt. Diese Erklärung wird dann vorher ergänzt.
+
+**Zweck:** Auswertung deines Trainings (Belastung, Fitness, Ermüdung, Form), Einschätzung deiner Tagesform aus Erholungswerten und Schlaf, persönliche Normalbereiche, Schätzung von Schwellenwerten und Zonen, Erstellung und Anpassung deines Trainingsplans, bei aktivierter Zyklusfunktion die Berücksichtigung deiner Zyklusphase. Gewicht und Körperdaten werden nur als Verlauf angezeigt, ZonePit setzt dafür keine Ziele.
 
 **Verarbeitung:** ausschließlich lokal auf deinem Gerät. ZonePit **schreibt keine Daten** in Apple Health und **verändert keine** bestehenden Einträge. Gesundheitsdaten werden **nicht an uns oder an Dritte übertragen**, nicht für Werbung genutzt und nicht verkauft.
 
@@ -29,7 +33,7 @@ Mit deiner ausdrücklichen Erlaubnis liest ZonePit folgende Daten aus Apple Heal
 
 ## 3. Deine Eingaben in der App
 
-Was du selbst einträgst – z. B. FTP- und Schwellenpuls-Werte, Trainingsziel, Zieldatum, Zeitbudget je Wochentag, Befinden sowie deine Trainingspläne und Anpassungen – speichert ZonePit lokal in der App-Datenbank auf deinem Gerät. Ein Abgleich über iCloud oder einen Server findet nicht statt.
+Was du selbst einträgst – z. B. Schwellenwerte (FTP, Schwellenpuls, Schwellenpace), maximale Herzfrequenz, Trainingsziel, Zieldatum, Zeitbudget je Wochentag, Befinden sowie deine Trainingspläne und Anpassungen – speichert ZonePit lokal in der App-Datenbank auf deinem Gerät. Ein Abgleich über iCloud oder einen Server findet nicht statt.
 
 Hinweis: Wenn du für dein Gerät ein iCloud- oder Computer-Backup nutzt, kann Apple diese App-Daten als Teil des Backups sichern. Das richtet sich nach deinen Geräteeinstellungen und den Datenschutzbestimmungen von Apple.
 
@@ -91,9 +95,9 @@ zonepit@icloud.com
 
 # Privacy Policy
 
-_Last updated: 6 October 2026_
+_Last updated: 8 October 2026_
 
-ZonePit is a personal training coach for iPhone and iPad. It is built so that your data stays with you: we operate **no servers**, you need **no account**, and there is **no tracking**. All analysis and the AI coach run **on your device**.
+ZonePit is a personal training and health coach for iPhone and iPad (cycling, running, swimming, strength). It is built so that your data stays with you: we operate **no servers**, you need **no account**, and there is **no tracking**. All analysis and the AI coach run **on your device**.
 
 ## 1. Controller
 
@@ -104,13 +108,17 @@ Alexander Wolpert, Teisnacher Straße 10, 10318 Berlin, Germany, zonepit@icloud.
 
 With your explicit permission, ZonePit reads the following data from Apple Health:
 
-- Workouts with activity type, duration and source (e.g. Wahoo, Zwift, Apple Watch)
-- Heart rate, resting heart rate and heart rate variability (HRV)
-- Sleep analysis (sleep stages and duration)
-- Cycling power, cadence and Functional Threshold Power (FTP)
-- Distance (cycling and walking/running) and active energy
+- **Workouts** with activity type, duration, source (e.g. Wahoo, Zwift, Apple Watch) and the weather details the source stores with them
+- **Training metrics:** heart rate, cycling power, cadence, Functional Threshold Power (FTP), running speed, distances (cycling, walking/running), active energy
+- **Heart and recovery:** resting heart rate, heart rate variability (HRV), sleep analysis (stages and duration), respiratory rate, blood oxygen, sleeping wrist temperature, VO₂ max
+- **Activity and body:** steps, resting energy, weight, body fat percentage, lean body mass
+- **Nutrition** (if a nutrition app stores it in Apple Health): energy, carbohydrates, protein, water
+- **Profile:** date of birth (for age-dependent values such as maximum heart rate and sleep goal) and biological sex (for reference ranges and to offer the cycle feature)
+- **Only if you turn on the cycle feature** (separate request, can be turned off at any time): menstruation, ovulation tests, basal body temperature, cervical mucus, spotting
 
-**Purpose:** analysing your training (load, fitness, fatigue, form), assessing your daily readiness from HRV, resting heart rate and sleep, estimating thresholds and building and adjusting your training plan.
+ZonePit only requests further data (e.g. running power, swimming data, workout routes, state of mind) when you use the related feature. This policy will be updated beforehand.
+
+**Purpose:** analysing your training (load, fitness, fatigue, form), assessing your daily readiness from recovery data and sleep, personal normal ranges, estimating thresholds and zones, building and adjusting your training plan and, if the cycle feature is on, taking your cycle phase into account. Weight and body data are only shown as trends; ZonePit sets no goals for them.
 
 **Processing:** exclusively on your device. ZonePit **does not write** to Apple Health and **does not modify** existing entries. Health data is **not transmitted to us or to third parties**, not used for advertising and not sold.
 
@@ -118,7 +126,7 @@ With your explicit permission, ZonePit reads the following data from Apple Healt
 
 ## 3. Your entries in the app
 
-Data you enter yourself – e.g. FTP and threshold heart rate values, training goal, target date, weekly time budget, wellbeing, and your training plans and adjustments – is stored locally in the app's database on your device. It is not synced via iCloud or any server.
+Data you enter yourself – e.g. threshold values (FTP, threshold heart rate, threshold pace), maximum heart rate, training goal, target date, weekly time budget, wellbeing, and your training plans and adjustments – is stored locally in the app's database on your device. It is not synced via iCloud or any server.
 
 Note: if you use iCloud or computer backups for your device, Apple may include this app data in the backup. This depends on your device settings and Apple's privacy policy.
 
