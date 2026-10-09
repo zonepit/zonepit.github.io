@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Beta: Lauf- und Schwimmdaten – ZonePit</title>
-<meta name="description" content="Hilf ZonePit beim Laufen und Schwimmen: Beta installieren, anonymen Datenbericht ansehen und selbst senden. Etwa 10 Minuten.">
+<meta name="description" content="Hilf ZonePit beim Laufen und Schwimmen: Beta laden, Bericht erzeugen, per Mail schicken. Etwa 10 Minuten.">
 <meta name="robots" content="noindex,follow">
 <link rel="canonical" href="https://zonepit.github.io/de/beta/lauf-schwimm/">
 <link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/beta/lauf-schwimm/">
@@ -19,7 +19,7 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="de_DE">
 <meta property="og:title" content="Beta: Lauf- und Schwimmdaten – ZonePit">
-<meta property="og:description" content="Hilf ZonePit beim Laufen und Schwimmen: Beta installieren, anonymen Datenbericht ansehen und selbst senden. Etwa 10 Minuten.">
+<meta property="og:description" content="Hilf ZonePit beim Laufen und Schwimmen: Beta laden, Bericht erzeugen, per Mail schicken. Etwa 10 Minuten.">
 <meta property="og:url" content="https://zonepit.github.io/de/beta/lauf-schwimm/">
 <meta property="og:image" content="https://zonepit.github.io/assets/og-image.png">
 <meta property="og:image:alt" content="ZonePit – Dein KI-Trainingscoach für das iPhone">
@@ -44,24 +44,54 @@
     </nav>
   </div>
 </header>
-<main id="inhalt" class="article">
+<main id="inhalt" class="tp">
+<style>
+.tp{max-width:760px;margin:0 auto;padding:56px 24px 88px}
+.tp h1{font-size:clamp(38px,6vw,60px);line-height:1;margin:10px 0 18px;letter-spacing:-.5px}
+.tp .lead{font-size:21px;line-height:1.5;color:var(--muted);margin:0 0 24px}
+.tp h2{font-size:clamp(26px,3.2vw,32px);line-height:1.1;margin:48px 0 14px}
+.tp p,.tp li{font-size:18px;line-height:1.6}
+.tp-need{display:flex;flex-wrap:wrap;gap:10px;padding:0;list-style:none;margin:0}
+.tp-need li{background:var(--surface-2);border-radius:999px;padding:8px 16px;font-size:16px;margin:0}
+.tp-steps{counter-reset:s;list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.tp-steps>li{counter-increment:s;display:grid;grid-template-columns:44px 1fr;column-gap:16px;row-gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:20px;margin:0}
+.tp-steps>li::before{content:counter(s);grid-row:1 / span 3;width:44px;height:44px;border-radius:22px;background:var(--signal);color:#fff;display:flex;align-items:center;justify-content:center;font:700 20px var(--display)}
+.tp-steps b.t{font-family:var(--display);font-size:22px}
+.tp-steps p{margin:0;color:var(--muted);font-size:17px}
+.tp-path{display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin-top:8px}
+.tp-chip{display:inline-block;background:var(--asphalt);color:var(--chalk);border-radius:10px;padding:6px 12px;font:600 15px var(--body)}
+.tp-arrow{color:var(--muted);font-weight:700}
+.tp-done{margin-top:18px;font-weight:600}
+.tp-grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(210px,1fr))}
+.tp-card{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:18px}
+.tp-card b{display:block;font-family:var(--display);font-size:19px;margin-bottom:6px}
+.tp-card p{margin:0;color:var(--muted);font-size:16px}
+.tp-priv{background:var(--asphalt);color:var(--chalk);border-radius:22px;padding:28px;margin-top:48px}
+.tp-priv h2{margin-top:0;color:var(--chalk)}
+.tp-priv ul{margin:0;padding-left:1.1em}
+.tp-priv li{font-size:16px;color:var(--chalk-muted)}
+.tp-priv h3{font-family:var(--display);font-size:18px;margin:0 0 8px;color:var(--orange-text)}
+.tp-priv p{color:var(--chalk-muted);font-size:16px;margin:18px 0 0}
+</style>
 <span class="eyebrow">Beta · Laufen und Schwimmen</span>
 <h1>10 Minuten für bessere Lauf- und Schwimmpläne</h1>
-<p class="lead">ZonePit lernt gerade Laufen und Schwimmen. Damit Belastung, Zonen und Pläne stimmen, muss ich wissen, wie eure Trainings in Apple Health ankommen: welche Uhren und Apps, welche Messwerte, wo Lücken sind. Die Testversion erzeugt dafür einen kurzen Bericht, den du ansiehst und selbst verschickst. Deine Trainings verlassen das iPhone nicht.</p>
-<p><a class="btn primary" href="mailto:zonepit@icloud.com?subject=ZonePit%20Beta%20Laufen%2FSchwimmen">Beta-Platz per E-Mail anfragen</a></p>
-<h2>Was du brauchst</h2>
-<ul><li>iPhone mit iOS 27 oder neuer</li><li>Lauf- oder Schwimmtrainings in Apple Health, am besten aus den letzten 3 bis 12 Monaten. Egal ob von Apple Watch, Garmin, Polar, Coros, Suunto, Wahoo oder einer App, solange sie in Health landen.</li></ul>
+<p class="lead">ZonePit lernt gerade Laufen und Schwimmen. Dafür muss ich wissen, welche Daten deine Uhr in Apple Health schreibt. Die Testversion macht daraus einen kurzen Bericht ohne persönliche Daten. Du schickst ihn mir per Mail – fertig.</p>
+<p><a class="btn primary" href="mailto:zonepit@icloud.com?subject=ZonePit%20Beta%20Laufen%2FSchwimmen">Beta-Platz per Mail anfragen</a></p>
+<h2>Du brauchst</h2>
+<ul class="tp-need"><li>ein iPhone mit iOS 27</li><li>Lauf- oder Schwimmtrainings in Apple Health – egal ob von Apple Watch, Garmin, Polar, Coros, Suunto oder einer App</li></ul>
 <h2>So geht's</h2>
-<ol><li><b>Beta installieren:</b> TestFlight aus dem App Store laden, den Beta-Link öffnen und ZonePit installieren.</li><li><b>Apple Health freigeben:</b> ZonePit öffnen, bei der Health-Abfrage „Alle aktivieren“ und „Erlauben“ tippen. Wichtig sind vor allem Trainings, Herzfrequenz, Distanz (Gehen + Laufen), Distanz (Schwimmen), Schwimmzüge, Laufgeschwindigkeit und Laufleistung.</li><li><b>Bericht erzeugen:</b> Tab „Mehr“ → „Datenbericht für die Entwicklung“. Die App sucht wenige Sekunden in Health.</li><li><b>Bericht ansehen:</b> Je Sportart siehst du Anzahl, Zeitraum, typische Dauer, vorhandene Messwerte und Quellen. Passt das grob zu deinem Training?</li><li><b>Bericht senden:</b> „Teilen“ → Mail an <a href="mailto:zonepit@icloud.com">zonepit@icloud.com</a> oder als Feedback über TestFlight. Du entscheidest selbst, ob und wohin. Die App schickt nichts automatisch.</li></ol>
-<h2>Wenn etwas fehlt</h2>
-<ul><li><b>Keine Lauf- oder Schwimmtrainings gefunden:</b> Health-App öffnen → Durchsuchen → Aktivität → Trainings. Fehlen sie dort, schreibt deine Uhr oder App nicht in Health. In der App der Uhr (z. B. Garmin Connect, Polar Flow) die Verbindung zu Apple Health einschalten und einmal synchronisieren.</li><li><b>Trainings da, aber ohne Distanz oder Puls:</b> Bitte trotzdem senden. Genau solche Lücken muss ich kennen.</li><li><b>Bericht lässt sich nicht erzeugen:</b> Kurz per TestFlight-Feedback melden, ein Screenshot reicht.</li></ul>
-<h2>Drei Fragen (optional)</h2>
-<ol><li>Mit welcher Uhr oder App zeichnest du Laufen und Schwimmen auf?</li><li>Schwimmst du im Becken, im Freiwasser oder beides? Welche Beckenlänge?</li><li>Planst du dein Training heute irgendwie (App, Trainer, Gefühl)?</li></ol>
-<h2>Was im Bericht steht und was nicht</h2>
-<table><thead><tr><th scope="col">Im Bericht</th><th scope="col">Nicht im Bericht</th></tr></thead><tbody><tr><td>Anzahl Trainings je Sportart</td><td>Name, Apple-ID, E-Mail</td></tr><tr><td>Zeitraum (erstes und letztes Training, nur Monat)</td><td>Orte, Routen, GPS-Daten</td></tr><tr><td>Dauer grob gruppiert (z. B. „30–60 Min.“)</td><td>einzelne Messwerte einzelner Trainings</td></tr><tr><td>ob ein Messwert vorhanden ist (Anteil der Trainings)</td><td>andere Gesundheitswerte wie Gewicht, Schlaf, HRV</td></tr><tr><td>Quellen als Gerätetyp oder App-Name</td><td>Seriennummern, Gerätenamen wie „Alex' Watch“</td></tr><tr><td>Anzahl Lücken und doppelter Aufzeichnungen</td><td>Uhrzeiten, genaue Tage</td></tr><tr><td>App- und iOS-Version</td><td>Inhalte anderer Apps</td></tr></tbody></table>
-<p>Ich nutze die Berichte nur, um ZonePit für Laufen und Schwimmen zu entwickeln, und lösche sie spätestens zum Start der Version 1.0. Wenn du mir per Mail schreibst, sehe ich deine Mail-Adresse; sie wird nicht weitergegeben.</p>
-<p>Ich bin Alexander, Einzelentwickler in Berlin. Du bekommst eine persönliche Antwort.</p>
-<p>Kontakt: <a href="mailto:zonepit@icloud.com">zonepit@icloud.com</a></p>
+<ol class="tp-steps"><li><b class="t">Beta laden</b><p>App <b>TestFlight</b> aus dem App Store laden. Dann den Einladungslink öffnen und tippen:</p><div class="tp-path"><span class="tp-chip">Installieren</span></div></li><li><b class="t">ZonePit öffnen</b><p>Dem Start folgen. Die Sportfrage beantworten oder „Später“ tippen.</p><div class="tp-path"><span class="tp-chip">Verstanden, weiter</span></div></li><li><b class="t">Apple Health erlauben</b><p>Kommt die Health-Abfrage nicht von selbst, auf dem Tab <b>Heute</b> „Zugriff auf Apple Health anfordern“ tippen. In der Abfrage:</p><div class="tp-path"><span class="tp-chip">Alle aktivieren</span> <span class="tp-arrow" aria-hidden="true">›</span> <span class="tp-chip">Erlauben</span></div></li><li><b class="t">Bericht erzeugen</b><p>Unten rechts auf <b>Mehr</b>, dann ganz nach unten bis „Entwicklung“ scrollen:</p><div class="tp-path"><span class="tp-chip">Mehr</span> <span class="tp-arrow" aria-hidden="true">›</span> <span class="tp-chip">Daten-Probe für Tester</span> <span class="tp-arrow" aria-hidden="true">›</span> <span class="tp-chip">Bericht erzeugen</span></div></li><li><b class="t">Bericht schicken</b><p>Ein paar Sekunden warten, dann:</p><div class="tp-path"><span class="tp-chip">Bericht teilen</span> <span class="tp-arrow" aria-hidden="true">›</span> <span class="tp-chip">Mail</span> <span class="tp-arrow" aria-hidden="true">›</span> <span class="tp-chip">zonepit@icloud.com</span></div></li></ol>
+<p class="tp-done">Das war's. Danke! Du bekommst eine persönliche Antwort.</p>
+<h2>Gern dazu in die Mail (optional)</h2>
+<ul><li>Welche Uhr oder App nutzt du?</li><li>Becken, Freiwasser oder beides? Welche Beckenlänge?</li><li>Wie planst du dein Training heute (App, Trainer, Gefühl)?</li></ul>
+<h2>Hakt es?</h2>
+<div class="tp-grid"><div class="tp-card"><b>Keine Trainings im Bericht</b><p>Health-App öffnen › Durchsuchen › Aktivität › Trainings. Fehlen sie dort, in der App deiner Uhr (z. B. Garmin Connect) die Verbindung zu Apple Health einschalten und einmal synchronisieren.</p></div><div class="tp-card"><b>Puls oder Distanz fehlen</b><p>Trotzdem schicken. Genau solche Lücken muss ich kennen.</p></div><div class="tp-card"><b>Etwas klappt nicht</b><p>In TestFlight einen Screenshot machen › „Feedback senden“. Ein Satz reicht.</p></div></div>
+<section class="tp-priv" aria-labelledby="tp-priv-h">
+<h2 id="tp-priv-h">Deine Daten bleiben bei dir</h2>
+<div class="tp-grid"><div><h3>Was im Bericht steht</h3><ul><li>Anzahl Trainings je Sportart</li><li>Zeitraum, nur Monat</li><li>Dauer grob (z. B. 30–60 Min.)</li><li>welche Messwerte es gibt</li><li>Uhr- oder App-Typ</li><li>App- und iOS-Version</li></ul></div><div><h3>Was nicht drin steht</h3><ul><li>Name, Apple-ID, Mail</li><li>Orte, Routen, GPS</li><li>einzelne Messwerte</li><li>Schlaf, HRV, Gewicht</li><li>Gerätenamen</li><li>Uhrzeiten, genaue Tage</li></ul></div></div>
+<p>Ich nutze die Berichte nur für die Entwicklung von ZonePit und lösche sie spätestens zum Start von Version 1.0.</p>
+</section>
+<p style="margin-top:28px">Alexander, Einzelentwickler in Berlin · <a href="mailto:zonepit@icloud.com">zonepit@icloud.com</a></p>
 <p><a href="../../../de/beta/">Zur allgemeinen Beta-Seite</a></p>
 </main>
 <footer>
