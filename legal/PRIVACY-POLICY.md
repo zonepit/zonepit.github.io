@@ -55,7 +55,7 @@ Nur wenn du die Verbindung in den Einstellungen selbst einrichtest, kann ZonePit
 
 ## 6. Optional: Wetter
 
-Wenn du die Wetterfunktion einschaltest, zeigt ZonePit das Wetter zu deinen Trainings und eine Vorhersage für die Planung. Dafür fragt dein iPhone den Wetterdienst von Apple (WeatherKit) mit einem **groben Ort** ab, etwa deiner Stadt. Wir betreiben dafür keinen eigenen Server und erhalten weder deinen Ort noch die Wetterdaten. Gesundheitsdaten werden dabei nicht übertragen.
+Wenn du die Wetterfunktion einschaltest, zeigt ZonePit das Wetter zu deinen Trainings und eine Vorhersage für die Planung. Dafür fragt dein iPhone den Wetterdienst von Apple (WeatherKit) mit deinem Ort ab. **Wie genau, entscheidest du:** ein ungefährer Ort (etwa deine Stadt) oder dein genauer Standort; das kannst du in ZonePit und in den iOS-Ortungsdiensten jederzeit ändern. Der Ort wird nur für die Abfrage genutzt. Wir betreiben dafür keinen eigenen Server und erhalten weder deinen Ort noch die Wetterdaten. Gesundheitsdaten werden dabei nicht übertragen.
 
 **Rechtsgrundlage:** deine Einwilligung durch Einschalten der Funktion (Art. 6 Abs. 1 lit. a DSGVO). Für die Verarbeitung bei Apple gelten die Datenschutzbestimmungen von Apple. Du kannst die Funktion jederzeit in den Einstellungen ausschalten. Wetterangaben, die eine Aufzeichnungs-App selbst in Apple Health speichert (Abschnitt 2), liest ZonePit unabhängig davon.
 
@@ -154,7 +154,7 @@ Only if you set up the connection yourself in Settings can ZonePit send planned 
 
 ## 6. Optional: weather
 
-If you turn on the weather feature, ZonePit shows the weather for your workouts and a forecast for planning. For this your iPhone queries Apple's weather service (WeatherKit) with a **coarse location**, such as your city. We run no server of our own for this and receive neither your location nor the weather data. No health data is transmitted.
+If you turn on the weather feature, ZonePit shows the weather for your workouts and a forecast for planning. For this your iPhone queries Apple's weather service (WeatherKit) with your location. **You choose how precise:** an approximate location (such as your city) or your precise location; you can change this in ZonePit and in iOS Location Services at any time. The location is used only for the request. We run no server of our own for this and receive neither your location nor the weather data. No health data is transmitted.
 
 **Legal basis:** your consent by turning on the feature (Art. 6(1)(a) GDPR). Apple's privacy policy applies to processing by Apple. You can turn the feature off at any time in the settings. Weather details that a recording app stores in Apple Health itself (section 2) are read by ZonePit regardless.
 
