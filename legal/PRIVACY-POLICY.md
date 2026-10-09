@@ -27,7 +27,7 @@ Weitere Daten (z. B. Laufleistung, Schwimmdaten, Trainingsrouten, Gemütszustand
 
 **Zweck:** Auswertung deines Trainings (Belastung, Fitness, Ermüdung, Form), Einschätzung deiner Tagesform aus Erholungswerten und Schlaf, persönliche Normalbereiche, Schätzung von Schwellenwerten und Zonen, Erstellung und Anpassung deines Trainingsplans, bei aktivierter Zyklusfunktion die Berücksichtigung deiner Zyklusphase. Gewicht und Körperdaten werden nur als Verlauf angezeigt, ZonePit setzt dafür keine Ziele.
 
-**Verarbeitung:** ausschließlich lokal auf deinem Gerät. ZonePit **schreibt keine Daten** in Apple Health und **verändert keine** bestehenden Einträge. Gesundheitsdaten werden **nicht an uns oder an Dritte übertragen**, nicht für Werbung genutzt und nicht verkauft.
+**Verarbeitung:** ausschließlich lokal auf deinem Gerät. ZonePit **verändert keine** bestehenden Einträge in Apple Health. **Geschrieben wird nur eins:** deine gefühlte Anstrengung zu einem Training (1 bis 10), als Trainingsaufwand verknüpft mit genau diesem Training – und nur, wenn du ZonePit das Schreiben in Apple Health erlaubst. So sehen auch Apple Fitness und andere Apps deine Einschätzung. Du kannst die Schreiberlaubnis jederzeit in der Health-App widerrufen; deine Einschätzung bleibt dann nur in ZonePit. Gesundheitsdaten werden **nicht an uns oder an Dritte übertragen**, nicht für Werbung genutzt und nicht verkauft.
 
 **Rechtsgrundlage:** deine ausdrückliche Einwilligung (Art. 6 Abs. 1 lit. a und Art. 9 Abs. 2 lit. a DSGVO). Du kannst sie jederzeit in der Health-App unter „Teilen“ › „Apps“ › „ZonePit“ oder in den iOS-Einstellungen widerrufen.
 
@@ -126,7 +126,7 @@ ZonePit only requests further data (e.g. running power, swimming data, workout r
 
 **Purpose:** analysing your training (load, fitness, fatigue, form), assessing your daily readiness from recovery data and sleep, personal normal ranges, estimating thresholds and zones, building and adjusting your training plan and, if the cycle feature is on, taking your cycle phase into account. Weight and body data are only shown as trends; ZonePit sets no goals for them.
 
-**Processing:** exclusively on your device. ZonePit **does not write** to Apple Health and **does not modify** existing entries. Health data is **not transmitted to us or to third parties**, not used for advertising and not sold.
+**Processing:** exclusively on your device. ZonePit **does not modify** existing entries in Apple Health. **Only one thing is written:** your perceived effort for a workout (1 to 10), as workout effort linked to that exact workout – and only if you allow ZonePit to write to Apple Health. This lets Apple Fitness and other apps see your rating too. You can revoke write permission at any time in the Health app; your rating then stays in ZonePit only. Health data is **not transmitted to us or to third parties**, not used for advertising and not sold.
 
 **Legal basis:** your explicit consent (Art. 6 (1) (a) and Art. 9 (2) (a) GDPR). You can withdraw it at any time in the Health app under Sharing › Apps › ZonePit or in iOS Settings.
 
