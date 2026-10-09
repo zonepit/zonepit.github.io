@@ -1,6 +1,6 @@
 # Datenschutzerklärung – ZonePit
 
-_Stand: 8. Oktober 2026_
+_Stand: 9. Oktober 2026_
 
 > 🇬🇧 English version below: [Privacy Policy](#privacy-policy)
 
@@ -16,8 +16,8 @@ Alexander Wolpert, Teisnacher Straße 10, 10318 Berlin, Deutschland, zonepit@icl
 Mit deiner ausdrücklichen Erlaubnis liest ZonePit folgende Daten aus Apple Health:
 
 - **Trainings** (Workouts) mit Sportart, Dauer, Quelle (z. B. Wahoo, Zwift, Apple Watch) und den Wetterangaben, die die Quelle mitspeichert
-- **Trainingswerte:** Herzfrequenz, Radleistung, Trittfrequenz, Functional Threshold Power (FTP), Laufgeschwindigkeit, Distanzen (Rad, Gehen/Laufen), aktive Energie
-- **Herz und Erholung:** Ruhepuls, Herzfrequenzvariabilität (HRV), Schlafanalyse (Schlafphasen und -dauer), Atemfrequenz, Blutsauerstoff, Handgelenktemperatur im Schlaf, VO₂max
+- **Trainingswerte:** Herzfrequenz, Radleistung, Trittfrequenz, Functional Threshold Power (FTP), Laufgeschwindigkeit, Distanzen (Rad, Gehen/Laufen), aktive Energie, Trainingsanstrengung (Apples Wert bzw. Schätzung von 1 bis 10)
+- **Herz und Erholung:** Ruhepuls, Herzfrequenzvariabilität (HRV), Schlafanalyse (Schlafphasen und -dauer), Atemfrequenz, Blutsauerstoff, Handgelenktemperatur im Schlaf, VO₂max, Herzfrequenz-Erholung (eine Minute nach dem Training)
 - **Aktivität und Körper:** Schritte, Ruheenergie, Größe, Gewicht, Körperfettanteil, magere Körpermasse
 - **Ernährung** (wenn eine Ernährungs-App sie in Apple Health speichert): Energie, Kohlenhydrate, Eiweiß, Wasser
 - **Profil:** Geburtsdatum (für altersabhängige Werte wie maximale Herzfrequenz und Schlafziel) und biologisches Geschlecht (für Einordnungen und das Angebot der Zyklusfunktion)
@@ -33,7 +33,7 @@ Weitere Daten (z. B. Laufleistung, Schwimmdaten, Trainingsrouten, Gemütszustand
 
 ## 3. Deine Eingaben in der App
 
-Was du selbst einträgst – z. B. dein Profil (Name, falls du ihn angibst, sowie Geburtsdatum, Geschlecht, Größe und Gewicht, wenn sie nicht aus Apple Health kommen), Sportlertyp, Hauptrichtung, Sportarten und Erfahrung, Schwellenwerte (FTP, Schwellenpuls, Schwellenpace), maximale Herzfrequenz, Trainingsziel, Zieldatum, Zeitbudget je Wochentag, Befinden sowie deine Trainingspläne und Anpassungen – speichert ZonePit lokal in der App-Datenbank auf deinem Gerät. Ein Abgleich über iCloud oder einen Server findet nicht statt.
+Was du selbst einträgst – z. B. dein Profil (Name, falls du ihn angibst, sowie Geburtsdatum, Geschlecht, Größe und Gewicht, wenn sie nicht aus Apple Health kommen), Sportlertyp, Hauptrichtung, Sportarten und Erfahrung, Schwellenwerte (FTP, Schwellenpuls, Schwellenpace), maximale Herzfrequenz, Trainingsziel, Zieldatum, Zeitbudget je Wochentag, Befinden, deine gefühlte Anstrengung je Training sowie deine Trainingspläne und Anpassungen – speichert ZonePit lokal in der App-Datenbank auf deinem Gerät. Ein Abgleich über iCloud oder einen Server findet nicht statt.
 
 Hinweis: Wenn du für dein Gerät ein iCloud- oder Computer-Backup nutzt, kann Apple diese App-Daten als Teil des Backups sichern. Das richtet sich nach deinen Geräteeinstellungen und den Datenschutzbestimmungen von Apple.
 
@@ -53,23 +53,29 @@ Nur wenn du die Verbindung in den Einstellungen selbst einrichtest, kann ZonePit
 
 **Rechtsgrundlage:** deine Einwilligung durch Einrichtung und Auslösen der Übertragung (Art. 6 Abs. 1 lit. a DSGVO). Für die Verarbeitung bei Intervals.icu und Zwift sind deren Betreiber verantwortlich; es gelten deren Datenschutzbestimmungen. Du kannst die Verbindung jederzeit in den Einstellungen trennen und den Schlüssel löschen.
 
-## 6. Export als Datei
+## 6. Optional: Wetter
+
+Wenn du die Wetterfunktion einschaltest, zeigt ZonePit das Wetter zu deinen Trainings und eine Vorhersage für die Planung. Dafür fragt dein iPhone den Wetterdienst von Apple (WeatherKit) mit einem **groben Ort** ab, etwa deiner Stadt. Wir betreiben dafür keinen eigenen Server und erhalten weder deinen Ort noch die Wetterdaten. Gesundheitsdaten werden dabei nicht übertragen.
+
+**Rechtsgrundlage:** deine Einwilligung durch Einschalten der Funktion (Art. 6 Abs. 1 lit. a DSGVO). Für die Verarbeitung bei Apple gelten die Datenschutzbestimmungen von Apple. Du kannst die Funktion jederzeit in den Einstellungen ausschalten. Wetterangaben, die eine Aufzeichnungs-App selbst in Apple Health speichert (Abschnitt 2), liest ZonePit unabhängig davon.
+
+## 7. Export als Datei
 
 Wenn du eine Einheit als ZWO-Datei exportierst, erzeugt die App die Datei lokal. Wohin du sie weitergibst, entscheidest du über das iOS-Teilen-Menü.
 
-## 7. Käufe und Abonnements
+## 8. Käufe und Abonnements
 
 Abonnements und der Einmalkauf von ZonePit Pro werden ausschließlich über den **App Store von Apple** abgewickelt. Wir erhalten keine Zahlungsdaten. Über StoreKit erhält die App auf deinem Gerät nur den Status deines Kaufs bzw. Abonnements (z. B. aktiv, Testphase, abgelaufen, dauerhaft gekauft), um die Funktionen freizuschalten. Verwaltung und Kündigung erfolgen in den Einstellungen deines Apple-Accounts.
 
-## 8. Keine Analyse, kein Tracking
+## 9. Keine Analyse, kein Tracking
 
 ZonePit enthält keine Analyse-, Tracking-, Werbe- oder Crash-Reporting-Dienste von Drittanbietern und liest keine Werbe-ID aus. Wenn du in iOS das Teilen von Analysedaten mit App-Entwicklern aktiviert hast, stellt Apple uns anonymisierte Absturz- und Nutzungsstatistiken zur Verfügung; das steuerst du in den iOS-Einstellungen unter „Datenschutz & Sicherheit“ › „Analyse & Verbesserungen“.
 
-## 9. Diese Website
+## 10. Diese Website
 
 Die Website wird über **GitHub Pages** (GitHub Inc., USA) bereitgestellt. Beim Aufruf verarbeitet GitHub technisch notwendige Daten wie deine IP-Adresse in Server-Logs, um die Seite auszuliefern und abzusichern (Art. 6 Abs. 1 lit. f DSGVO). Details: [GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement). Die Website setzt keine Cookies, nutzt keine Analyse-Werkzeuge und lädt Schriften von dieser Website selbst, nicht von Google. Deine Sprachauswahl wird nur im Speicher deines Browsers (localStorage) abgelegt.
 
-## 10. Deine Rechte
+## 11. Deine Rechte
 
 Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Verarbeitung, Datenübertragbarkeit sowie Widerspruch und Widerruf deiner Einwilligungen (Art. 15–21 DSGVO). Da wir keine personenbezogenen Daten auf eigenen Systemen speichern, liegen deine Daten in deiner Hand:
 
@@ -79,15 +85,15 @@ Du hast das Recht auf Auskunft, Berichtigung, Löschung, Einschränkung der Vera
 
 Du hast außerdem das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren, z. B. bei der Berliner Beauftragten für Datenschutz und Informationsfreiheit.
 
-## 11. Kinder
+## 12. Kinder
 
 ZonePit ist im App Store ab 9 Jahren freigegeben und eignet sich auch für sporttreibende Kinder und Jugendliche, zum Beispiel über die Familienfreigabe. Kinder und Jugendliche unter 16 Jahren sollten die App nur mit Einverständnis ihrer Eltern nutzen. Für sie gilt ein Jugendmodus: keine Gewichts- oder Ernährungsziele, keine Coach-Antworten zu Gewicht und Ernährung, vorsichtigere Trainingssteigerung; unter 13 Jahren ist der KI-Coach ausgeschaltet. Das Alter ermittelt ZonePit aus dem Geburtsdatum in Apple Health oder deiner Angabe in der App, ausschließlich auf deinem Gerät.
 
-## 12. Änderungen
+## 13. Änderungen
 
 Wenn sich die App oder die Rechtslage ändert, passen wir diese Erklärung an. Die aktuelle Fassung steht immer unter derselben Adresse.
 
-## 13. Kontakt
+## 14. Kontakt
 
 zonepit@icloud.com
 
@@ -95,7 +101,7 @@ zonepit@icloud.com
 
 # Privacy Policy
 
-_Last updated: 8 October 2026_
+_Last updated: 9 October 2026_
 
 ZonePit is a personal training and health coach for iPhone and iPad (cycling, running, swimming, strength). It is built so that your data stays with you: we operate **no servers**, you need **no account**, and there is **no tracking**. All analysis and the AI coach run **on your device**.
 
@@ -109,8 +115,8 @@ Alexander Wolpert, Teisnacher Straße 10, 10318 Berlin, Germany, zonepit@icloud.
 With your explicit permission, ZonePit reads the following data from Apple Health:
 
 - **Workouts** with activity type, duration, source (e.g. Wahoo, Zwift, Apple Watch) and the weather details the source stores with them
-- **Training metrics:** heart rate, cycling power, cadence, Functional Threshold Power (FTP), running speed, distances (cycling, walking/running), active energy
-- **Heart and recovery:** resting heart rate, heart rate variability (HRV), sleep analysis (stages and duration), respiratory rate, blood oxygen, sleeping wrist temperature, VO₂ max
+- **Training metrics:** heart rate, cycling power, cadence, Functional Threshold Power (FTP), running speed, distances (cycling, walking/running), active energy, workout effort (Apple's value or estimate from 1 to 10)
+- **Heart and recovery:** resting heart rate, heart rate variability (HRV), sleep analysis (stages and duration), respiratory rate, blood oxygen, sleeping wrist temperature, VO₂ max, heart rate recovery (one minute after a workout)
 - **Activity and body:** steps, resting energy, height, weight, body fat percentage, lean body mass
 - **Nutrition** (if a nutrition app stores it in Apple Health): energy, carbohydrates, protein, water
 - **Profile:** date of birth (for age-dependent values such as maximum heart rate and sleep goal) and biological sex (for reference ranges and to offer the cycle feature)
@@ -126,7 +132,7 @@ ZonePit only requests further data (e.g. running power, swimming data, workout r
 
 ## 3. Your entries in the app
 
-Data you enter yourself – e.g. your profile (your name if you provide it, and date of birth, sex, height and weight if they do not come from Apple Health), athlete type, main focus, sports and experience, threshold values (FTP, threshold heart rate, threshold pace), maximum heart rate, training goal, target date, weekly time budget, wellbeing, and your training plans and adjustments – is stored locally in the app's database on your device. It is not synced via iCloud or any server.
+Data you enter yourself – e.g. your profile (your name if you provide it, and date of birth, sex, height and weight if they do not come from Apple Health), athlete type, main focus, sports and experience, threshold values (FTP, threshold heart rate, threshold pace), maximum heart rate, training goal, target date, weekly time budget, wellbeing, your perceived effort per workout, and your training plans and adjustments – is stored locally in the app's database on your device. It is not synced via iCloud or any server.
 
 Note: if you use iCloud or computer backups for your device, Apple may include this app data in the backup. This depends on your device settings and Apple's privacy policy.
 
@@ -146,23 +152,29 @@ Only if you set up the connection yourself in Settings can ZonePit send planned 
 
 **Legal basis:** your consent by setting up and triggering the transfer (Art. 6 (1) (a) GDPR). The operators of Intervals.icu and Zwift are responsible for processing on their side; their privacy policies apply. You can disconnect and delete the key in Settings at any time.
 
-## 6. File export
+## 6. Optional: weather
+
+If you turn on the weather feature, ZonePit shows the weather for your workouts and a forecast for planning. For this your iPhone queries Apple's weather service (WeatherKit) with a **coarse location**, such as your city. We run no server of our own for this and receive neither your location nor the weather data. No health data is transmitted.
+
+**Legal basis:** your consent by turning on the feature (Art. 6(1)(a) GDPR). Apple's privacy policy applies to processing by Apple. You can turn the feature off at any time in the settings. Weather details that a recording app stores in Apple Health itself (section 2) are read by ZonePit regardless.
+
+## 7. File export
 
 When you export a session as a ZWO file, the app creates the file locally. You decide where it goes via the iOS share sheet.
 
-## 7. Purchases and subscriptions
+## 8. Purchases and subscriptions
 
 Subscriptions and the one-time purchase of ZonePit Pro are handled exclusively through **Apple's App Store**. We never receive payment details. Via StoreKit, the app on your device only receives your purchase or subscription status (e.g. active, trial, expired, lifetime) to unlock features. You manage and cancel subscriptions in your Apple Account settings.
 
-## 8. No analytics, no tracking
+## 9. No analytics, no tracking
 
 ZonePit contains no third-party analytics, tracking, advertising or crash-reporting services and does not read the advertising identifier. If you have enabled sharing analytics with app developers in iOS, Apple provides us with anonymised crash and usage statistics; you control this in iOS Settings under Privacy & Security › Analytics & Improvements.
 
-## 9. This website
+## 10. This website
 
 This website is served via **GitHub Pages** (GitHub Inc., USA). When you visit, GitHub processes technically necessary data such as your IP address in server logs to deliver and secure the site (Art. 6 (1) (f) GDPR). Details: [GitHub Privacy Statement](https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement). The website sets no cookies, uses no analytics and loads fonts from this website itself, not from Google. Your language choice is stored only in your browser (localStorage).
 
-## 10. Your rights
+## 11. Your rights
 
 You have the right of access, rectification, erasure, restriction of processing, data portability, objection and withdrawal of consent (Art. 15–21 GDPR). Because we store no personal data on our own systems, your data is in your hands:
 
@@ -172,14 +184,14 @@ You have the right of access, rectification, erasure, restriction of processing,
 
 You also have the right to lodge a complaint with a data protection supervisory authority, e.g. the Berlin Commissioner for Data Protection and Freedom of Information.
 
-## 11. Children
+## 12. Children
 
 ZonePit is rated 9+ in the App Store and is also suitable for children and teenagers who do sports, for example via Family Sharing. Children and teenagers under 16 should only use the app with their parents' consent. A youth mode applies to them: no weight or nutrition goals, no coach answers on weight and nutrition, more cautious training progression; under 13 the AI coach is turned off. ZonePit determines age from the date of birth in Apple Health or your entry in the app, exclusively on your device.
 
-## 12. Changes
+## 13. Changes
 
 If the app or the legal situation changes, we will update this policy. The current version is always available at the same address.
 
-## 13. Contact
+## 14. Contact
 
 zonepit@icloud.com
