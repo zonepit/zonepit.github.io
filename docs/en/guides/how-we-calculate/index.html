@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>How we calculate: every metric in ZonePit – ZonePit</title>
-<meta name="description" content="Inputs, calculation in plain words, uncertainty and sources for load, fitness and form, FTP, zones, readiness, sleep score, sleep debt, VO₂max and steps.">
+<meta name="description" content="Inputs, calculation in plain words, uncertainty and sources for load, fitness and form, FTP, zones, readiness, sleep score, sleep debt, VO₂max, trends, heart rate drift, activity minutes and steps.">
 <meta name="robots" content="noindex,follow">
 <link rel="canonical" href="https://zonepit.github.io/en/guides/how-we-calculate/">
 <link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/how-we-calculate/">
@@ -19,14 +19,14 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:title" content="How we calculate: every metric in ZonePit – ZonePit">
-<meta property="og:description" content="Inputs, calculation in plain words, uncertainty and sources for load, fitness and form, FTP, zones, readiness, sleep score, sleep debt, VO₂max and steps.">
+<meta property="og:description" content="Inputs, calculation in plain words, uncertainty and sources for load, fitness and form, FTP, zones, readiness, sleep score, sleep debt, VO₂max, trends, heart rate drift, activity minutes and steps.">
 <meta property="og:url" content="https://zonepit.github.io/en/guides/how-we-calculate/">
 <meta property="og:image" content="https://zonepit.github.io/assets/og-image-en.png">
 <meta property="og:image:alt" content="ZonePit – Your AI training coach for iPhone">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preload" href="../../../assets/fonts/BarlowSemiCondensed-Bold.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../../../assets/site.css">
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How we calculate: every metric in ZonePit","description":"Inputs, calculation in plain words, uncertainty and sources for load, fitness and form, FTP, zones, readiness, sleep score, sleep debt, VO₂max and steps.","inLanguage":"en","datePublished":"2026-10-06","dateModified":"2026-10-06","mainEntityOfPage":"https://zonepit.github.io/en/guides/how-we-calculate/","image":"https://zonepit.github.io/assets/og-image-en.png","author":{"@type":"Person","name":"Alexander Wolpert"},"publisher":{"@type":"Organization","name":"ZonePit","logo":{"@type":"ImageObject","url":"https://zonepit.github.io/assets/app-icon-512.png"}}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"How we calculate: every metric in ZonePit","description":"Inputs, calculation in plain words, uncertainty and sources for load, fitness and form, FTP, zones, readiness, sleep score, sleep debt, VO₂max, trends, heart rate drift, activity minutes and steps.","inLanguage":"en","datePublished":"2026-10-06","dateModified":"2026-10-06","mainEntityOfPage":"https://zonepit.github.io/en/guides/how-we-calculate/","image":"https://zonepit.github.io/assets/og-image-en.png","author":{"@type":"Person","name":"Alexander Wolpert"},"publisher":{"@type":"Organization","name":"ZonePit","logo":{"@type":"ImageObject","url":"https://zonepit.github.io/assets/app-icon-512.png"}}}</script>
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://zonepit.github.io/en/"},{"@type":"ListItem","position":2,"name":"Guides","item":"https://zonepit.github.io/en/guides/"},{"@type":"ListItem","position":3,"name":"How we calculate: every metric in ZonePit","item":"https://zonepit.github.io/en/guides/how-we-calculate/"}]}</script>
 </head>
 <body>
@@ -51,7 +51,7 @@
 <span class="eyebrow">Guides</span>
 <h1>How we calculate: every metric in ZonePit</h1>
 <p class="lead">ZonePit shows not just numbers but how they come about. For every metric, this page says what goes in, how it is calculated, how precise it is and where the method comes from.</p>
-<p class="meta">Updated: October 6, 2026 · 12 min read</p>
+<p class="meta">Updated: October 6, 2026 · 15 min read</p>
 
 <h2>Principles</h2>
 <ul>
@@ -113,8 +113,24 @@
 <p><b>Uncertainty:</b> time to fall asleep is approximated from time in bed. The compensation steps are our own choice, not study values.</p>
 
 <h2>VO₂max</h2>
-<p><b>Input and calculation:</b> ZonePit takes Apple's estimate from Apple Health and shows it as a trend. There is no calculation of its own.</p>
-<p><b>Uncertainty:</b> Apple estimates VO₂max from heart rate and pace during outdoor walks, runs and hikes. Single values can be off by several ml/kg/min. The trend over weeks is what carries meaning.</p>
+<p><b>Input and calculation:</b> ZonePit takes Apple's estimate from Apple Health and shows it as a trend, compared with your own history. If Apple Health has no value, for example because you only cycle, ZonePit shows a rough estimate after Uth and colleagues: 15.3 × maximum heart rate ÷ resting heart rate (7-day average). As soon as Apple provides a value, it replaces the estimate.</p>
+<p><b>Uncertainty:</b> Apple estimates VO₂max from heart rate and pace during outdoor walks, runs and hikes. Single values can be off by several ml/kg/min. The fallback formula is rougher still, especially if your maximum heart rate only comes from the age formula. The trend over weeks is what carries meaning.</p>
+
+<h2>Training adaptation and training effect on HRV</h2>
+<p><b>Training adaptation:</b> this week's load is compared with your own normal range of the last weeks (at least 4 weeks of history). Result: below, within or above. There is deliberately no risk score, because ratios such as the acute:chronic workload ratio are considered refuted as injury predictors.</p>
+<p><b>Training effect on HRV:</b> ZonePit compares your HRV on days after higher load with days after lower load the day before, with at least 5 days per group. This is an observation, not a cause-and-effect statement.</p>
+
+<h2>Below and above threshold</h2>
+<p>The “aerobic and anaerobic” card splits time in power zones: zones 1 to 3 are below threshold, from zone 4 (threshold) time counts as intense. The boundary is a simplification; in the body the transition is gradual.</p>
+
+<h2>Heart rate drift</h2>
+<p>For sessions of 20 minutes or more, ZonePit compares heart rate in the second half with the first. If power or pace is available, it is related to intensity (decoupling of heart rate and power). From a 5 % rise a hint appears, for example about fatigue, heat or too little fluid. This is a training value, not a medical assessment.</p>
+
+<h2>Movement and strength minutes</h2>
+<p>The WHO recommends 150 to 300 minutes of moderate activity per week for adults, plus strength training on at least two days. ZonePit counts your total training time against 150 minutes and your strength minutes against 30 to 60 minutes per week. It does not distinguish by intensity, because power, pace and perceived effort cannot be cleanly converted into each other.</p>
+
+<h2>Daily curve</h2>
+<p>Heart rate and HRV as hourly averages across the day, with sleep and workouts marked. It shows how your body moves through the day. ZonePit does not derive a stress score from it.</p>
 
 <h2>Steps</h2>
 <p><b>Calculation:</b> daily total via Apple Health's statistics, which correctly merges iPhone and Apple Watch without counting twice. The default goal is 7,000 steps.</p>
@@ -127,7 +143,7 @@
 <h2>Keep reading</h2>
 <div class="related"><a href="../../../en/guides/daily-readiness-hrv-resting-heart-rate-sleep/">Daily readiness: what HRV, resting heart rate and sleep tell you<span>How to read daily readiness from HRV, resting heart rate, sleep and wellbeing, why …</span></a><a href="../../../en/guides/tss-ctl-atl-tsb-explained/">TSS, CTL, ATL and TSB explained simply<span>Load, fitness, fatigue and form: how TSS, CTL, ATL and TSB are calculated, with a worked …</span></a></div>
 <h2>Sources</h2>
-<ul class="sources"><li>Andrew Coggan: Training Stress Score, Normalized Power and power zones, TrainingPeaks; Hunter Allen, Andrew Coggan: <i>Training and Racing with a Power Meter</i>.</li><li>Eric Banister et al. (1975): <i>A system model of training for athletic performance</i>, Australian Journal of Sports Medicine 7.</li><li>Joe Friel: pace and heart rate zones for run training.</li><li>Tanaka H, Monahan KD, Seals DR (2001): <i>Age-predicted maximal heart rate revisited</i>. Journal of the American College of Cardiology 37(1).</li><li>Australian Institute of Sport: <i>Heart Rate Variability: Best Practice Guide</i>.</li><li>Paluch AE et al. (2022): <i>Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts</i>. The Lancet Public Health 7(3).</li><li>Apple: <i>Using Apple Watch to estimate cardio fitness with VO₂ max</i> (white paper).</li></ul>
+<ul class="sources"><li>Andrew Coggan: Training Stress Score, Normalized Power and power zones, TrainingPeaks; Hunter Allen, Andrew Coggan: <i>Training and Racing with a Power Meter</i>.</li><li>Eric Banister et al. (1975): <i>A system model of training for athletic performance</i>, Australian Journal of Sports Medicine 7.</li><li>Joe Friel: pace and heart rate zones for run training.</li><li>Tanaka H, Monahan KD, Seals DR (2001): <i>Age-predicted maximal heart rate revisited</i>. Journal of the American College of Cardiology 37(1).</li><li>Australian Institute of Sport: <i>Heart Rate Variability: Best Practice Guide</i>.</li><li>Paluch AE et al. (2022): <i>Daily steps and all-cause mortality: a meta-analysis of 15 international cohorts</i>. The Lancet Public Health 7(3).</li><li>Apple: <i>Using Apple Watch to estimate cardio fitness with VO₂ max</i> (white paper).</li><li>Uth N, Sørensen H, Overgaard K, Pedersen PK (2004): <i>Estimation of VO2max from the ratio between HRmax and HRrest – the Heart Rate Ratio Method</i>. European Journal of Applied Physiology 91.</li><li>World Health Organization (2020): <i>Guidelines on physical activity and sedentary behaviour</i>.</li><li>Impellizzeri FM et al. (2020): <i>Acute:Chronic Workload Ratio: Conceptual Issues and Fundamental Pitfalls</i>. International Journal of Sports Physiology and Performance 15.</li></ul>
 <p class="sources">ZonePit is a training and wellness app, not a medical device.</p>
 </main>
 <footer>
