@@ -4,7 +4,7 @@ _Stand: 9. Oktober 2026_
 
 > 🇬🇧 English version below: [Privacy Policy](#privacy-policy)
 
-ZonePit ist ein persönlicher Trainings- und Gesundheitscoach für iPhone und iPad (Rad, Laufen, Schwimmen, Kraft). Die App ist so gebaut, dass deine Daten bei dir bleiben: Wir betreiben **keine Server**, du brauchst **kein Konto**, und es gibt **kein Tracking**. Alle Auswertungen und der KI-Coach laufen **auf deinem Gerät**.
+ZonePit ist ein Coach für Training und Erholung für das iPhone (Rad, Laufen, Schwimmen, Kraft). Die App ist so gebaut, dass deine Daten bei dir bleiben: Wir betreiben **keine eigenen Server**, du brauchst **kein Konto**, und es gibt **kein Tracking**. Alle Auswertungen und der KI-Coach laufen **auf deinem Gerät**.
 
 ## 1. Verantwortlicher
 
@@ -104,7 +104,7 @@ zonepit@icloud.com
 
 _Last updated: 9 October 2026_
 
-ZonePit is a personal training and health coach for iPhone and iPad (cycling, running, swimming, strength). It is built so that your data stays with you: we operate **no servers**, you need **no account**, and there is **no tracking**. All analysis and the AI coach run **on your device**.
+ZonePit is a training and recovery coach for iPhone (cycling, running, swimming, strength). It is built so that your data stays with you: we operate **no servers of our own**, you need **no account**, and there is **no tracking**. All analysis and the AI coach run **on your device**.
 
 ## 1. Controller
 

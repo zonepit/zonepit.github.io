@@ -5,10 +5,10 @@ EIN SATZ
 ZonePit ist ein Coach für Training und Erholung auf dem iPhone: Er plant Rad, Laufen, Schwimmen und Kraft aus Apple Health und läuft komplett auf dem Gerät.
 
 KURZBESCHREIBUNG (CA. 35 WÖRTER)
-ZonePit liest Trainings, Schlaf und Erholungswerte aus Apple Health, plant die Woche über alle Sportarten nach Tagesform und Ziel und legt offen, wie jede Zahl entsteht. Ein KI-Coach erklärt alles direkt auf dem iPhone. Kein Konto, keine Server, kein Tracking.
+ZonePit liest Trainings, Schlaf und Erholungswerte aus Apple Health, plant die Woche über alle Sportarten nach Tagesform und Ziel und legt offen, wie jede Zahl entsteht. Ein KI-Coach erklärt alles direkt auf dem iPhone. Kein Konto, keine eigenen Server, kein Tracking.
 
 STANDARDTEXT / BOILERPLATE (CA. 80 WÖRTER)
-ZonePit ist ein Coach für Training und Erholung, der vollständig auf dem iPhone läuft. Die App liest Trainings, Schlaf und Erholungswerte aus Apple Health und plant Rad, Laufen, Schwimmen und Kraft in einem gemeinsamen Wochenplan, angepasst an Tagesform und Ziel. Fürs Rad bietet sie volle Leistungstiefe bis zum Export nach Zwift. Jede Kennzahl ist mit Rechenweg und Quellen offen dokumentiert, ein KI-Coach auf Basis von Apple Intelligence erklärt sie. Es gibt kein Konto, keine Cloud und kein Tracking. Entwickelt wird ZonePit als Ein-Personen-Projekt in Berlin von Alexander Wolpert.
+ZonePit ist ein Coach für Training und Erholung, der vollständig auf dem iPhone läuft. Die App liest Trainings, Schlaf und Erholungswerte aus Apple Health und plant Rad, Laufen, Schwimmen und Kraft in einem gemeinsamen Wochenplan, angepasst an Tagesform und Ziel. Fürs Rad bietet sie volle Leistungstiefe bis zum Export nach Zwift. Jede Kennzahl ist mit Rechenweg und Quellen offen dokumentiert, ein KI-Coach auf Basis von Apple Intelligence erklärt sie. Es gibt kein Konto, keine eigenen Server und kein Tracking. Entwickelt wird ZonePit als Ein-Personen-Projekt in Berlin von Alexander Wolpert.
 
 
 https://zonepit.github.io/

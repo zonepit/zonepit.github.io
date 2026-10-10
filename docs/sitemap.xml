@@ -1,15 +1,330 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
 <url>
+<loc>https://zonepit.github.io/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/beta/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/beta/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/beta/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/beta/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/datenschutz-und-technik/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/datenschutz-und-technik/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/privacy-and-technology/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/privacy-and-technology/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/funktionen/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/funktionen/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/features/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/features/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/hilfe/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/hilfe/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/help/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/help/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/preise/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/preise/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/pricing/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/pricing/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/presse/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/presse/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/press/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/press/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/ratgeber/belastung-ueber-sportarten/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/belastung-ueber-sportarten/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/load-across-sports/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/load-across-sports/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/ratgeber/form-am-eventtag-tapering/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/form-am-eventtag-tapering/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/peak-form-on-event-day-tapering/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/peak-form-on-event-day-tapering/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/ratgeber/ftp-ohne-test/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/ftp-ohne-test/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/ftp-without-a-test/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/ftp-without-a-test/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/ratgeber/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/ratgeber/laufen-schwellenpace-und-zonen/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/laufen-schwellenpace-und-zonen/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/running-threshold-pace-and-zones/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/running-threshold-pace-and-zones/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/ratgeber/leistungskurve-bestwerte/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/leistungskurve-bestwerte/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/power-curve-best-efforts/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/power-curve-best-efforts/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/ratgeber/leistungszonen-erklaert/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/leistungszonen-erklaert/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/power-zones-explained/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/power-zones-explained/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/ratgeber/pulszonen-und-maximalpuls/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/pulszonen-und-maximalpuls/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/heart-rate-zones-and-maximum-heart-rate/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/heart-rate-zones-and-maximum-heart-rate/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/ratgeber/ramp-rate-und-entlastungswoche/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/ramp-rate-und-entlastungswoche/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/ramp-rate-and-recovery-weeks/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/ramp-rate-and-recovery-weeks/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/ratgeber/so-berechnen-wir-das/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/so-berechnen-wir-das/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/how-we-calculate/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/how-we-calculate/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/ratgeber/tagesform-hrv-ruhepuls-schlaf/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/tagesform-hrv-ruhepuls-schlaf/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/daily-readiness-hrv-resting-heart-rate-sleep/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/daily-readiness-hrv-resting-heart-rate-sleep/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/ratgeber/trainingsplan-nach-zwift/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/trainingsplan-nach-zwift/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/training-plan-to-zwift/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/training-plan-to-zwift/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/ratgeber/tss-ctl-atl-tsb-erklaert/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/tss-ctl-atl-tsb-erklaert/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/tss-ctl-atl-tsb-explained/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/tss-ctl-atl-tsb-explained/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/ratgeber/zyklus-und-training/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/zyklus-und-training/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/menstrual-cycle-and-training/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/menstrual-cycle-and-training/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/de/sportarten/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/sportarten/"/>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/sports/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/sports/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/beta/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/beta/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/beta/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/beta/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/features/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/features/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/funktionen/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/features/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/guides/daily-readiness-hrv-resting-heart-rate-sleep/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/daily-readiness-hrv-resting-heart-rate-sleep/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/tagesform-hrv-ruhepuls-schlaf/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/daily-readiness-hrv-resting-heart-rate-sleep/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/guides/ftp-without-a-test/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/ftp-without-a-test/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/ftp-ohne-test/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/ftp-without-a-test/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/guides/heart-rate-zones-and-maximum-heart-rate/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/heart-rate-zones-and-maximum-heart-rate/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/pulszonen-und-maximalpuls/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/heart-rate-zones-and-maximum-heart-rate/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/guides/how-we-calculate/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/how-we-calculate/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/so-berechnen-wir-das/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/how-we-calculate/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/guides/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/guides/load-across-sports/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/load-across-sports/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/belastung-ueber-sportarten/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/load-across-sports/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/guides/menstrual-cycle-and-training/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/menstrual-cycle-and-training/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/zyklus-und-training/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/menstrual-cycle-and-training/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/guides/peak-form-on-event-day-tapering/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/peak-form-on-event-day-tapering/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/form-am-eventtag-tapering/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/peak-form-on-event-day-tapering/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/guides/power-curve-best-efforts/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/power-curve-best-efforts/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/leistungskurve-bestwerte/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/power-curve-best-efforts/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/guides/power-zones-explained/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/power-zones-explained/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/leistungszonen-erklaert/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/power-zones-explained/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/guides/ramp-rate-and-recovery-weeks/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/ramp-rate-and-recovery-weeks/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/ramp-rate-und-entlastungswoche/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/ramp-rate-and-recovery-weeks/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/guides/running-threshold-pace-and-zones/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/running-threshold-pace-and-zones/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/laufen-schwellenpace-und-zonen/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/running-threshold-pace-and-zones/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/guides/training-plan-to-zwift/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/training-plan-to-zwift/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/trainingsplan-nach-zwift/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/training-plan-to-zwift/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/guides/tss-ctl-atl-tsb-explained/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/guides/tss-ctl-atl-tsb-explained/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/ratgeber/tss-ctl-atl-tsb-erklaert/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/guides/tss-ctl-atl-tsb-explained/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/help/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/help/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/hilfe/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/help/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/press/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/press/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/presse/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/press/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/pricing/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/pricing/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/preise/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/pricing/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/privacy-and-technology/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/privacy-and-technology/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/datenschutz-und-technik/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/privacy-and-technology/"/>
+</url>
+<url>
+<loc>https://zonepit.github.io/en/sports/</loc>
+<lastmod>2026-10-10</lastmod>
+<xhtml:link rel="alternate" hreflang="en" href="https://zonepit.github.io/en/sports/"/>
+<xhtml:link rel="alternate" hreflang="de" href="https://zonepit.github.io/de/sportarten/"/>
+<xhtml:link rel="alternate" hreflang="x-default" href="https://zonepit.github.io/en/sports/"/>
+</url>
+<url>
 <loc>https://zonepit.github.io/legal/datenschutz.html</loc>
-<lastmod>2026-10-09</lastmod>
+<lastmod>2026-10-10</lastmod>
 </url>
 <url>
 <loc>https://zonepit.github.io/legal/impressum.html</loc>
-<lastmod>2026-10-09</lastmod>
+<lastmod>2026-10-10</lastmod>
 </url>
 <url>
 <loc>https://zonepit.github.io/legal/nutzungsbedingungen.html</loc>
-<lastmod>2026-10-09</lastmod>
+<lastmod>2026-10-10</lastmod>
 </url>
 </urlset>
