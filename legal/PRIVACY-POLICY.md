@@ -62,9 +62,13 @@ Beim ersten Start fragt ZonePit, ob du die Wetterfunktion nutzen möchtest; der 
 
 **Rechtsgrundlage:** deine Einwilligung, die du mit der Standortfreigabe im iOS-Dialog erteilst (Art. 6 Abs. 1 lit. a DSGVO). Ohne diese Freigabe wird kein Ort abgefragt. Für die Verarbeitung bei Apple gelten die Datenschutzbestimmungen von Apple. Du kannst die Funktion jederzeit in den Einstellungen ausschalten. Wetterangaben, die eine Aufzeichnungs-App selbst in Apple Health speichert (Abschnitt 2), liest ZonePit unabhängig davon.
 
-## 7. Export als Datei
+## 7. Export, Teilen und Widgets
 
 Wenn du eine Einheit als ZWO-Datei exportierst, erzeugt die App die Datei lokal. Wohin du sie weitergibst, entscheidest du über das iOS-Teilen-Menü.
+
+**Teilen-Karten:** Tagesform, Belastung oder ein Training kannst du als Bild teilen. Die App erzeugt das Bild auf deinem iPhone. An uns oder einen anderen Dienst der App wird nichts gesendet. Was in dem Bild steht und an wen du es über das iOS-Teilen-Menü weitergibst, entscheidest du. Dafür braucht ZonePit keine zusätzliche Health-Berechtigung.
+
+**Widgets:** Die Widgets auf Home- und Sperrbildschirm zeigen eine lokale Momentaufnahme, die die App auf deinem iPhone ablegt. Sie wird nur zwischen App und Widget über eine App-Gruppe (einen gemeinsamen, geschützten Speicher auf dem Gerät) geteilt und verlässt das iPhone nicht. Die Widgets lesen nicht selbst aus Apple Health. Am gesperrten iPhone verbergen sie Gesundheitswerte wie Tagesform, HRV und Ruhepuls; sichtbar bleiben dann nur Platzhalter. Du kannst Widgets jederzeit entfernen.
 
 ## 8. Käufe und Abonnements
 
@@ -164,9 +168,13 @@ At first launch ZonePit asks whether you want to use the weather feature; the sw
 
 **Legal basis:** your consent, given by allowing location access in the iOS dialog (Art. 6(1)(a) GDPR). Without this permission no location is queried. Apple's privacy policy applies to processing by Apple. You can turn the feature off at any time in the settings. Weather details that a recording app stores in Apple Health itself (section 2) are read by ZonePit regardless.
 
-## 7. File export
+## 7. Export, sharing and widgets
 
 When you export a session as a ZWO file, the app creates the file locally. You decide where it goes via the iOS share sheet.
+
+**Share cards:** You can share readiness, load or a workout as an image. The app creates the image on your iPhone. Nothing is sent to us or to any other service of the app. You decide what the image shows and who receives it via the iOS share sheet. ZonePit needs no additional Health permission for this.
+
+**Widgets:** The widgets on your Home Screen and Lock Screen show a local snapshot that the app stores on your iPhone. It is shared between the app and the widget only through an App Group (a shared, protected storage on the device) and does not leave the iPhone. The widgets do not read from Apple Health themselves. On a locked iPhone they hide health values such as readiness, HRV and resting heart rate and show placeholders instead. You can remove widgets at any time.
 
 ## 8. Purchases and subscriptions
 
