@@ -1,6 +1,6 @@
 # Datenschutzerklärung – ZonePit
 
-_Stand: 9. Oktober 2026_
+_Stand: 11. Oktober 2026_
 
 > 🇬🇧 English version below: [Privacy Policy](#privacy-policy)
 
@@ -36,6 +36,8 @@ Weitere Daten (z. B. Laufleistung, Schwimmdaten, Trainingsrouten) fragt ZonePit 
 
 Was du selbst einträgst – z. B. dein Profil (Name, falls du ihn angibst, sowie Geburtsdatum, Geschlecht, Größe und Gewicht, wenn sie nicht aus Apple Health kommen), Sportlertyp, Hauptrichtung, Sportarten und Erfahrung, Schwellenwerte (FTP, Schwellenpuls, Schwellenpace), maximale Herzfrequenz, Trainingsziel, Zieldatum, Zeitbudget je Wochentag, Befinden, deine gefühlte Anstrengung je Training sowie deine Trainingspläne und Anpassungen – speichert ZonePit lokal in der App-Datenbank auf deinem Gerät. Ein Abgleich über iCloud oder einen Server findet nicht statt.
 
+**Mitteilungen:** Erinnerungen und Hinweise (z. B. Tagesform am Morgen, Schlafenszeit, Wochenrückblick) erzeugt ZonePit lokal auf deinem Gerät. Es gibt keinen Push-Server; Inhalte von Mitteilungen verlassen das Gerät nicht. Beim ersten Start fragt iOS nach deiner Erlaubnis; einzelne Mitteilungen schaltest du unter Mehr › Freigaben ab.
+
 Hinweis: Wenn du für dein Gerät ein iCloud- oder Computer-Backup nutzt, kann Apple diese App-Daten als Teil des Backups sichern. Das richtet sich nach deinen Geräteeinstellungen und den Datenschutzbestimmungen von Apple.
 
 ## 4. KI-Coach (Apple Intelligence)
@@ -56,9 +58,9 @@ Nur wenn du die Verbindung in den Einstellungen selbst einrichtest, kann ZonePit
 
 ## 6. Optional: Wetter
 
-Wenn du die Wetterfunktion einschaltest, zeigt ZonePit das Wetter zu deinen Trainings und eine Vorhersage für die Planung. Dafür fragt dein iPhone den Wetterdienst von Apple (WeatherKit) mit deinem Ort ab. **Wie genau, entscheidest du:** ein ungefährer Ort (etwa deine Stadt) oder dein genauer Standort; das kannst du in ZonePit und in den iOS-Ortungsdiensten jederzeit ändern. Der Ort wird nur für die Abfrage genutzt. Wir betreiben dafür keinen eigenen Server und erhalten weder deinen Ort noch die Wetterdaten. Gesundheitsdaten werden dabei nicht übertragen.
+Beim ersten Start fragt ZonePit, ob du die Wetterfunktion nutzen möchtest; der Schalter ist vorausgewählt, abschalten kannst du ihn dort oder später unter Mehr › Freigaben. Erst wenn du anschließend im Dialog von iOS den Standortzugriff erlaubst, wird die Funktion aktiv. Dann zeigt ZonePit das Wetter zu deinen Trainings und eine Vorhersage für die Planung. Dafür fragt dein iPhone den Wetterdienst von Apple (WeatherKit) mit deinem Ort ab. **Wie genau, entscheidest du:** ein ungefährer Ort (etwa deine Stadt) oder dein genauer Standort; das kannst du in ZonePit und in den iOS-Ortungsdiensten jederzeit ändern. Der Ort wird nur für die Abfrage genutzt. Wir betreiben dafür keinen eigenen Server und erhalten weder deinen Ort noch die Wetterdaten. Gesundheitsdaten werden dabei nicht übertragen.
 
-**Rechtsgrundlage:** deine Einwilligung durch Einschalten der Funktion (Art. 6 Abs. 1 lit. a DSGVO). Für die Verarbeitung bei Apple gelten die Datenschutzbestimmungen von Apple. Du kannst die Funktion jederzeit in den Einstellungen ausschalten. Wetterangaben, die eine Aufzeichnungs-App selbst in Apple Health speichert (Abschnitt 2), liest ZonePit unabhängig davon.
+**Rechtsgrundlage:** deine Einwilligung, die du mit der Standortfreigabe im iOS-Dialog erteilst (Art. 6 Abs. 1 lit. a DSGVO). Ohne diese Freigabe wird kein Ort abgefragt. Für die Verarbeitung bei Apple gelten die Datenschutzbestimmungen von Apple. Du kannst die Funktion jederzeit in den Einstellungen ausschalten. Wetterangaben, die eine Aufzeichnungs-App selbst in Apple Health speichert (Abschnitt 2), liest ZonePit unabhängig davon.
 
 ## 7. Export als Datei
 
@@ -102,7 +104,7 @@ zonepit@icloud.com
 
 # Privacy Policy
 
-_Last updated: 9 October 2026_
+_Last updated: 11 October 2026_
 
 ZonePit is a training and recovery coach for iPhone (cycling, running, swimming, strength). It is built so that your data stays with you: we operate **no servers of our own**, you need **no account**, and there is **no tracking**. All analysis and the AI coach run **on your device**.
 
@@ -134,7 +136,9 @@ ZonePit only requests further data (e.g. running power, swimming data, workout r
 
 ## 3. Your entries in the app
 
-Data you enter yourself – e.g. your profile (your name if you provide it, and date of birth, sex, height and weight if they do not come from Apple Health), athlete type, main focus, sports and experience, threshold values (FTP, threshold heart rate, threshold pace), maximum heart rate, training goal, target date, weekly time budget, wellbeing, your perceived effort per workout, and your training plans and adjustments – is stored locally in the app's database on your device. It is not synced via iCloud or any server.
+Data you enter yourself – e.g. your profile (your name if you provide it, and date of birth, sex, height and weight if they do not come from Apple Health), athlete type, main focus, sports and experience, threshold values (FTP, threshold heart rate, threshold pace), maximum heart rate, training goal, target date, weekly time budget, how you feel, your perceived effort per workout, and your training plans and adjustments – is stored locally in the app's database on your device. It is not synced via iCloud or any server.
+
+**Notifications:** reminders and notices (e.g. readiness in the morning, bedtime, weekly review) are created locally on your device by ZonePit. There is no push server; notification content does not leave the device. At first launch iOS asks for your permission; you can turn off individual notifications under More › Permissions.
 
 Note: if you use iCloud or computer backups for your device, Apple may include this app data in the backup. This depends on your device settings and Apple's privacy policy.
 
@@ -156,9 +160,9 @@ Only if you set up the connection yourself in Settings can ZonePit send planned 
 
 ## 6. Optional: weather
 
-If you turn on the weather feature, ZonePit shows the weather for your workouts and a forecast for planning. For this your iPhone queries Apple's weather service (WeatherKit) with your location. **You choose how precise:** an approximate location (such as your city) or your precise location; you can change this in ZonePit and in iOS Location Services at any time. The location is used only for the request. We run no server of our own for this and receive neither your location nor the weather data. No health data is transmitted.
+At first launch ZonePit asks whether you want to use the weather feature; the switch is preselected, and you can turn it off there or later under More › Permissions. The feature only becomes active once you then allow location access in the iOS dialog. ZonePit then shows the weather for your workouts and a forecast for planning. For this your iPhone queries Apple's weather service (WeatherKit) with your location. **You choose how precise:** an approximate location (such as your city) or your precise location; you can change this in ZonePit and in iOS Location Services at any time. The location is used only for the request. We run no server of our own for this and receive neither your location nor the weather data. No health data is transmitted.
 
-**Legal basis:** your consent by turning on the feature (Art. 6(1)(a) GDPR). Apple's privacy policy applies to processing by Apple. You can turn the feature off at any time in the settings. Weather details that a recording app stores in Apple Health itself (section 2) are read by ZonePit regardless.
+**Legal basis:** your consent, given by allowing location access in the iOS dialog (Art. 6(1)(a) GDPR). Without this permission no location is queried. Apple's privacy policy applies to processing by Apple. You can turn the feature off at any time in the settings. Weather details that a recording app stores in Apple Health itself (section 2) are read by ZonePit regardless.
 
 ## 7. File export
 
