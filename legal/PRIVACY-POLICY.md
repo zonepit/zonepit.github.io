@@ -21,7 +21,7 @@ Mit deiner ausdrücklichen Erlaubnis liest ZonePit folgende Daten aus Apple Heal
 - **Aktivität und Körper:** Schritte, Ruheenergie, Größe, Gewicht, Körperfettanteil, magere Körpermasse
 - **Ernährung** (wenn eine Ernährungs-App sie in Apple Health speichert): Energie, Kohlenhydrate, Eiweiß, Wasser
 - **Profil:** Geburtsdatum (für altersabhängige Werte wie maximale Herzfrequenz und Schlafziel) und biologisches Geschlecht (für Einordnungen und das Angebot der Zyklusfunktion)
-- **Gemütszustand** (Stimmung, die du in der Health-App oder einer anderen App einträgst): um ihn neben deinem Befinden anzuzeigen und, wenn du es in den Einstellungen wählst, als Gesamtwert in deiner Tagesform zu berücksichtigen
+- **Gemütszustand** (Stimmung, die du in der Health-App oder einer anderen App einträgst): nur wenn du unter Mehr › Apple Health als Quelle des Befindens „Stimmung aus Apple Health“ wählst (eigene Abfrage, jederzeit änderbar); dann zählt der Gesamtwert in deiner Tagesform
 - **Nur wenn du die Zyklusfunktion aktivierst** (eigene Abfrage, jederzeit abschaltbar): Menstruation, Ovulationstests, Basaltemperatur, Zervixschleim, Zwischenblutungen
 
 Weitere Daten (z. B. Trainingsrouten) fragt ZonePit erst an, wenn du die dazugehörige Funktion nutzt. Diese Erklärung wird dann vorher ergänzt.
@@ -127,7 +127,7 @@ With your explicit permission, ZonePit reads the following data from Apple Healt
 - **Activity and body:** steps, resting energy, height, weight, body fat percentage, lean body mass
 - **Nutrition** (if a nutrition app stores it in Apple Health): energy, carbohydrates, protein, water
 - **Profile:** date of birth (for age-dependent values such as maximum heart rate and sleep goal) and biological sex (for reference ranges and to offer the cycle feature)
-- **State of mind** (mood you log in the Health app or another app): to show it next to your wellbeing and, if you choose so in the settings, to include it as an overall value in your daily readiness
+- **State of mind** (mood you log in the Health app or another app): only if you choose “State of mind from Apple Health” as the source of your wellbeing under More › Apple Health (separate request, can be changed at any time); the overall value then counts in your daily readiness
 - **Only if you turn on the cycle feature** (separate request, can be turned off at any time): menstruation, ovulation tests, basal body temperature, cervical mucus, spotting
 
 ZonePit only requests further data (e.g. workout routes) when you use the related feature. This policy will be updated beforehand.
