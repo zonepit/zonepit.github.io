@@ -16,15 +16,15 @@ Alexander Wolpert, Teisnacher Straße 10, 10318 Berlin, Deutschland, zonepit@icl
 Mit deiner ausdrücklichen Erlaubnis liest ZonePit folgende Daten aus Apple Health:
 
 - **Trainings** (Workouts) mit Sportart, Dauer, Quelle (z. B. Wahoo, Zwift, Apple Watch) und den Wetterangaben, die die Quelle mitspeichert
-- **Trainingswerte:** Herzfrequenz, Radleistung, Trittfrequenz, Functional Threshold Power (FTP), Laufgeschwindigkeit, Distanzen (Rad, Gehen/Laufen), aktive Energie, Trainingsanstrengung (Apples Wert bzw. Schätzung von 1 bis 10)
+- **Trainingswerte:** Herzfrequenz, Radleistung, Trittfrequenz, Functional Threshold Power (FTP), Laufgeschwindigkeit, Laufleistung (Watt, wenn Uhr oder Sensor sie misst), Distanzen (Rad, Gehen/Laufen, Schwimmen je Bahn), aktive Energie, Trainingsanstrengung (Apples Wert bzw. Schätzung von 1 bis 10)
 - **Herz und Erholung:** Ruhepuls, Herzfrequenzvariabilität (HRV), Schlafanalyse (Schlafphasen und -dauer), Atemfrequenz, Blutsauerstoff, Handgelenktemperatur im Schlaf, VO₂max, Herzfrequenz-Erholung (eine Minute nach dem Training)
 - **Aktivität und Körper:** Schritte, Ruheenergie, Größe, Gewicht, Körperfettanteil, magere Körpermasse
 - **Ernährung** (wenn eine Ernährungs-App sie in Apple Health speichert): Energie, Kohlenhydrate, Eiweiß, Wasser
 - **Profil:** Geburtsdatum (für altersabhängige Werte wie maximale Herzfrequenz und Schlafziel) und biologisches Geschlecht (für Einordnungen und das Angebot der Zyklusfunktion)
-- **Gemütszustand** (Stimmung, die du in der Health-App oder einer anderen App einträgst): um ihn neben deinem Befinden und deiner Tagesform anzuzeigen
+- **Gemütszustand** (Stimmung, die du in der Health-App oder einer anderen App einträgst): um ihn neben deinem Befinden anzuzeigen und, wenn du es in den Einstellungen wählst, als Gesamtwert in deiner Tagesform zu berücksichtigen
 - **Nur wenn du die Zyklusfunktion aktivierst** (eigene Abfrage, jederzeit abschaltbar): Menstruation, Ovulationstests, Basaltemperatur, Zervixschleim, Zwischenblutungen
 
-Weitere Daten (z. B. Laufleistung, Schwimmdaten, Trainingsrouten) fragt ZonePit erst an, wenn du die dazugehörige Funktion nutzt. Diese Erklärung wird dann vorher ergänzt.
+Weitere Daten (z. B. Trainingsrouten) fragt ZonePit erst an, wenn du die dazugehörige Funktion nutzt. Diese Erklärung wird dann vorher ergänzt.
 
 **Zweck:** Auswertung deines Trainings (Belastung, Fitness, Ermüdung, Form), Einschätzung deiner Tagesform aus Erholungswerten und Schlaf, persönliche Normalbereiche, Schätzung von Schwellenwerten und Zonen, Erstellung und Anpassung deines Trainingsplans, bei aktivierter Zyklusfunktion die Berücksichtigung deiner Zyklusphase. Gewicht und Körperdaten werden nur als Verlauf angezeigt, ZonePit setzt dafür keine Ziele.
 
@@ -122,15 +122,15 @@ Alexander Wolpert, Teisnacher Straße 10, 10318 Berlin, Germany, zonepit@icloud.
 With your explicit permission, ZonePit reads the following data from Apple Health:
 
 - **Workouts** with activity type, duration, source (e.g. Wahoo, Zwift, Apple Watch) and the weather details the source stores with them
-- **Training metrics:** heart rate, cycling power, cadence, Functional Threshold Power (FTP), running speed, distances (cycling, walking/running), active energy, workout effort (Apple's value or estimate from 1 to 10)
+- **Training metrics:** heart rate, cycling power, cadence, Functional Threshold Power (FTP), running speed, running power (watts, if your watch or sensor measures it), distances (cycling, walking/running, swimming per length), active energy, workout effort (Apple's value or estimate from 1 to 10)
 - **Heart and recovery:** resting heart rate, heart rate variability (HRV), sleep analysis (stages and duration), respiratory rate, blood oxygen, sleeping wrist temperature, VO₂ max, heart rate recovery (one minute after a workout)
 - **Activity and body:** steps, resting energy, height, weight, body fat percentage, lean body mass
 - **Nutrition** (if a nutrition app stores it in Apple Health): energy, carbohydrates, protein, water
 - **Profile:** date of birth (for age-dependent values such as maximum heart rate and sleep goal) and biological sex (for reference ranges and to offer the cycle feature)
-- **State of mind** (mood you log in the Health app or another app): to show it next to your wellbeing and daily readiness
+- **State of mind** (mood you log in the Health app or another app): to show it next to your wellbeing and, if you choose so in the settings, to include it as an overall value in your daily readiness
 - **Only if you turn on the cycle feature** (separate request, can be turned off at any time): menstruation, ovulation tests, basal body temperature, cervical mucus, spotting
 
-ZonePit only requests further data (e.g. running power, swimming data, workout routes) when you use the related feature. This policy will be updated beforehand.
+ZonePit only requests further data (e.g. workout routes) when you use the related feature. This policy will be updated beforehand.
 
 **Purpose:** analysing your training (load, fitness, fatigue, form), assessing your daily readiness from recovery data and sleep, personal normal ranges, estimating thresholds and zones, building and adjusting your training plan and, if the cycle feature is on, taking your cycle phase into account. Weight and body data are only shown as trends; ZonePit sets no goals for them.
 
