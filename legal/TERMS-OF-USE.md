@@ -14,6 +14,7 @@ ZonePit liest Trainingsdaten aus Apple Health, wertet sie auf deinem Gerät aus,
 
 - **Zweckbestimmung:** ZonePit ist eine Trainings- und Wellness-App für gesunde Menschen. Sie hilft, Training und Erholung zu planen und zu verstehen. ZonePit ist **kein Medizinprodukt**, stellt **keine Diagnosen** und gibt keine Therapieempfehlungen oder medizinischen Ratschläge. Die App ist nicht dafür bestimmt, Krankheiten zu erkennen, zu überwachen oder zu behandeln.
 - Kennzahlen, Schätzungen (z. B. FTP, Schwellenpuls, Form) und Trainingspläne beruhen auf Rechenmodellen und den Daten in Apple Health. Sie können ungenau oder unvollständig sein, etwa wenn Messwerte fehlen oder Sensoren fehlerhaft messen.
+- Hinweise zu Ernährung, Trinken und Versorgung rund ums Training sind allgemeine Orientierung für gesunde Menschen. Sie sind **keine Ernährungsberatung** und ersetzen keine individuelle Beratung durch Ärztinnen, Ärzte oder Ernährungsfachkräfte.
 - Lass dich vor Beginn oder Steigerung eines Trainings ärztlich beraten, insbesondere bei Vorerkrankungen, Herz-Kreislauf-Beschwerden, Schwangerschaft oder Medikamenteneinnahme.
 - Brich das Training sofort ab und suche ärztliche Hilfe, wenn du Schmerzen in der Brust, Atemnot, Schwindel oder andere ungewöhnliche Beschwerden hast.
 - Trainiere im Straßenverkehr nur so, dass du die Verkehrsregeln einhalten und deine Umgebung jederzeit wahrnehmen kannst. Bediene die App nicht während der Fahrt.
@@ -82,6 +83,7 @@ ZonePit reads training data from Apple Health, analyses it on your device, creat
 
 - **Intended purpose:** ZonePit is a training and wellness app for healthy people. It helps you plan and understand training and recovery. ZonePit is **not a medical device**, does **not provide diagnoses** and gives no treatment recommendations or medical advice. The app is not intended to detect, monitor or treat any disease.
 - Metrics, estimates (e.g. FTP, threshold heart rate, form) and training plans are based on computational models and the data in Apple Health. They may be inaccurate or incomplete, for example when readings are missing or sensors measure incorrectly.
+- Notes on nutrition, hydration and fuelling around training are general guidance for healthy people. They are **not nutritional advice** and do not replace individual advice from a doctor or a qualified dietitian.
 - Consult a doctor before starting or increasing training, especially if you have pre-existing conditions, cardiovascular symptoms, are pregnant or take medication.
 - Stop training immediately and seek medical help if you experience chest pain, shortness of breath, dizziness or other unusual symptoms.
 - When riding in traffic, train only in a way that lets you obey traffic rules and stay aware of your surroundings at all times. Do not operate the app while riding.
