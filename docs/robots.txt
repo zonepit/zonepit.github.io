@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://zonepit.github.io/sitemap.xml
+Sitemap: https://zonepit.info/sitemap.xml

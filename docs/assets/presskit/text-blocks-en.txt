@@ -11,4 +11,4 @@ BOILERPLATE (ABOUT 80 WORDS)
 ZonePit is a training and recovery coach that runs entirely on the iPhone. The app reads workouts, sleep and recovery data from Apple Health and plans cycling, running, swimming and strength in one shared weekly plan, adapted to readiness and goals. For cycling it offers full power depth, all the way to export to Zwift. Every metric is openly documented with its calculation and sources, and an AI coach built on Apple Intelligence explains them. There is no account, no servers of our own and no tracking. ZonePit is developed as a one-person project in Berlin by Alexander Wolpert.
 
 
-https://zonepit.github.io/
+https://zonepit.info/
