@@ -1,6 +1,6 @@
 # Datenschutzerklärung – ZonePit
 
-_Stand: 29. Oktober 2026_
+_Stand: 30. Oktober 2026_
 
 > 🇬🇧 English version below: [Privacy Policy](#privacy-policy)
 
@@ -73,6 +73,8 @@ Wenn du eine Einheit als ZWO-Datei exportierst, erzeugt die App die Datei lokal.
 
 **Senden an die Apple Watch:** Wenn du eine Einheit an die Apple Watch sendest, übergibt ZonePit sie über Apples Trainings-Schnittstelle (WorkoutKit) an die Trainings-App deiner Uhr. Die Übertragung zwischen iPhone und Uhr übernimmt das System von Apple; an uns oder einen anderen Dienst wird nichts gesendet. Das Ziel „Zwift“ (Abschnitt 5) ist davon getrennt und nur für Rad und Laufen wählbar.
 
+**ZonePit auf der Apple Watch:** Die ZonePit-App auf der Uhr zeigt Tagesform, die heutige Einheit und die Woche mit Plan und Ist. Diese Angaben rechnet das iPhone und überträgt sie über Apples direkte Verbindung zwischen iPhone und gekoppelter Uhr (WatchConnectivity) – an uns oder einen anderen Dienst wird dabei nichts gesendet. Die Uhr-App liest selbst nicht aus Apple Health und rechnet nichts. Trägst du auf der Uhr dein Befinden ein, geht dieser Eintrag auf demselben Weg zurück ans iPhone und wird dort wie ein Eintrag in der App behandelt (Abschnitt 3). Auf dem Zifferblatt (Komplikationen) verbirgt die Uhr Gesundheitswerte, solange sie gesperrt ist.
+
 **Teilen-Karten:** Tagesform, Belastung oder ein Training kannst du als Bild teilen. Die App erzeugt das Bild auf deinem iPhone. An uns oder einen anderen Dienst der App wird nichts gesendet. Was in dem Bild steht und an wen du es über das iOS-Teilen-Menü weitergibst, entscheidest du. Dafür braucht ZonePit keine zusätzliche Health-Berechtigung.
 
 **Widgets:** Die Widgets auf Home- und Sperrbildschirm zeigen eine lokale Momentaufnahme, die die App auf deinem iPhone ablegt. Sie wird nur zwischen App und Widget über eine App-Gruppe (einen gemeinsamen, geschützten Speicher auf dem Gerät) geteilt und verlässt das iPhone nicht. Die Widgets lesen nicht selbst aus Apple Health. Am gesperrten iPhone verbergen sie Gesundheitswerte wie Tagesform, HRV und Ruhepuls; sichtbar bleiben dann nur Platzhalter. Du kannst Widgets jederzeit entfernen.
@@ -117,7 +119,7 @@ zonepit@icloud.com
 
 # Privacy Policy
 
-_Last updated: 29 October 2026_
+_Last updated: 30 October 2026_
 
 ZonePit is a training and recovery coach for iPhone (cycling, running, swimming, strength). It is built so that your data stays with you: we operate **no servers of our own**, you need **no account**, and there is **no tracking**. All analysis and the AI coach run **on your device**.
 
@@ -187,6 +189,8 @@ At first launch ZonePit asks whether you want to use the weather feature; the sw
 When you export a session as a ZWO file, the app creates the file locally. You decide where it goes via the iOS share sheet.
 
 **Sending to Apple Watch:** When you send a session to your Apple Watch, ZonePit hands it to the Workout app on your watch via Apple's workout interface (WorkoutKit). Apple's system handles the transfer between iPhone and watch; nothing is sent to us or to another service. The “Zwift” target (section 5) is separate and selectable only for cycling and running.
+
+**ZonePit on Apple Watch:** The ZonePit app on your watch shows readiness, today's session and the week with plan and actual. Your iPhone calculates this information and transfers it over Apple's direct connection between iPhone and paired watch (WatchConnectivity) – nothing is sent to us or to any other service. The watch app does not read from Apple Health itself and does not calculate anything. If you log how you feel on the watch, the entry travels back to your iPhone the same way and is treated there like an entry in the app (section 3). On the watch face (complications), the watch hides health values while it is locked.
 
 **Share cards:** You can share readiness, load or a workout as an image. The app creates the image on your iPhone. Nothing is sent to us or to any other service of the app. You decide what the image shows and who receives it via the iOS share sheet. ZonePit needs no additional Health permission for this.
 
