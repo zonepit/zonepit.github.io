@@ -1,10 +1,10 @@
 # Datenschutzerklärung – ZonePit
 
-_Stand: 30. Oktober 2026_
+_Stand: 2. November 2026_
 
 > 🇬🇧 English version below: [Privacy Policy](#privacy-policy)
 
-ZonePit ist ein Coach für Training und Erholung für das iPhone (Rad, Laufen, Schwimmen, Kraft). Die App ist so gebaut, dass deine Daten bei dir bleiben: Wir betreiben **keine eigenen Server**, du brauchst **kein Konto**, und es gibt **kein Tracking**. Alle Auswertungen und der KI-Coach laufen **auf deinem Gerät**.
+ZonePit ist ein Coach für Training und Erholung für das iPhone (Rad, Laufen, Schwimmen, Kraft). Die App ist so gebaut, dass deine Daten bei dir bleiben: Wir betreiben **keine eigenen Server**, du brauchst **kein Konto**, und es gibt **kein Tracking**. Alle Auswertungen und der KI-Coach laufen **auf deinem Gerät**. Auf deinen anderen Geräten gleicht ZonePit deine Eingaben nur über **deine eigene private iCloud** ab (Abschnitt 3a), Befinden und Notizen Ende-zu-Ende-verschlüsselt.
 
 ## 1. Verantwortlicher
 
@@ -21,7 +21,7 @@ Mit deiner ausdrücklichen Erlaubnis liest ZonePit folgende Daten aus Apple Heal
 - **Aktivität und Körper:** Schritte, Ruheenergie, Größe, Gewicht, Körperfettanteil, magere Körpermasse
 - **Ernährung** (wenn eine Ernährungs-App sie in Apple Health speichert): Energie, Kohlenhydrate, Eiweiß, Wasser
 - **Profil:** Geburtsdatum (für altersabhängige Werte wie maximale Herzfrequenz und Schlafziel) und biologisches Geschlecht (für Einordnungen und das Angebot der Zyklusfunktion)
-- **Gemütszustand** (Stimmung, die du in der Health-App oder einer anderen App einträgst): nur wenn du unter Mehr › Apple Health als Quelle des Befindens „Stimmung aus Apple Health“ wählst (eigene Abfrage, jederzeit änderbar); dann zählt der Gesamtwert in deiner Tagesform
+- **Gemütszustand** (Stimmung, die du in der Health-App oder einer anderen App einträgst): wenn du unter Mehr › Apple Health als Quelle des Befindens „Stimmung aus Apple Health“ wählst, und – solange „Auch in Apple Health speichern“ an ist – als Rückfall, wenn auf diesem Gerät für den Tag noch kein Befinden eingetragen ist (z. B. weil du es auf einem anderen Gerät eingetragen hast). Eigene Abfrage, jederzeit änderbar; es zählt der Gesamtwert in deiner Tagesform.
 - **Nur wenn du „Aktivitätsringe anzeigen“ einschaltest** (Mehr › Apple Health, Standard aus; eigene Abfrage, jederzeit abschaltbar): deine Aktivitätszusammenfassung je Tag – Bewegen (aktive Energie), Trainieren (Minuten), Stehen (Stunden) jeweils mit Ziel. ZonePit zeigt sie unverändert an und rechnet damit weder Belastung noch Plan.
 - **Nur wenn du die Zyklusfunktion aktivierst** (zuerst erklärt ZonePit in einem eigenen Hinweis, welche Daten gelesen werden, und du kannst dort abbrechen; danach eigene Abfrage von iOS, jederzeit abschaltbar): Menstruation, Ovulationstests, Basaltemperatur, Zervixschleim, Zwischenblutungen
 
@@ -37,13 +37,24 @@ Weitere Daten (z. B. Trainingsrouten) fragt ZonePit erst an, wenn du die dazugeh
 
 ## 3. Deine Eingaben in der App
 
-Was du selbst einträgst – z. B. dein Profil (Name, falls du ihn angibst, sowie Geburtsdatum, Geschlecht, Größe und Gewicht, wenn sie nicht aus Apple Health kommen), Sportlertyp, Hauptrichtung, Sportarten und Erfahrung, Schwellenwerte (FTP, Schwellenpuls, Schwellenpace), maximale Herzfrequenz, Trainingsziel, Zieldatum, Zeitbudget je Wochentag, Befinden, deine gefühlte Anstrengung je Training sowie deine Trainingspläne und Anpassungen – speichert ZonePit lokal in der App-Datenbank auf deinem Gerät. Ein Abgleich über iCloud oder einen Server findet nicht statt. Ebenfalls lokal gespeichert sind daraus abgeleitete Auswertungen, etwa die Belastung und die Leistungskurve je Training sowie deine Tagesform je Tag. Sie lassen sich aus Apple Health jederzeit neu berechnen und verlassen das Gerät nicht.
+Was du selbst einträgst – z. B. dein Profil (Name, falls du ihn angibst, sowie Geburtsdatum, Geschlecht, Größe und Gewicht, wenn sie nicht aus Apple Health kommen), Sportlertyp, Hauptrichtung, Sportarten und Erfahrung, Schwellenwerte (FTP, Schwellenpuls, Schwellenpace), maximale Herzfrequenz, Trainingsziel, Zieldatum, Zeitbudget je Wochentag, Befinden, deine gefühlte Anstrengung je Training sowie deine Trainingspläne und Anpassungen – speichert ZonePit lokal in der App-Datenbank auf deinem Gerät. Über einen Server von uns läuft nichts; den Abgleich über deine eigene iCloud beschreibt Abschnitt 3a. Ebenfalls lokal gespeichert sind daraus abgeleitete Auswertungen, etwa die Belastung und die Leistungskurve je Training sowie deine Tagesform je Tag. Sie lassen sich aus Apple Health jederzeit neu berechnen und verlassen das Gerät nicht.
 
 **Profilbild (optional):** Du kannst ein Bild für dein Profil mit der Kamera aufnehmen oder über die Fotoauswahl von iOS wählen. Für die Aufnahme fragt iOS einmal nach dem Kamerazugriff; ohne ihn bleibt die Fotoauswahl nutzbar. ZonePit sieht nur das aufgenommene oder gewählte Bild, speichert es verkleinert ausschließlich auf deinem Gerät und zeigt es nirgends außerhalb der App (auch nicht im Widget). „Foto entfernen“ löscht es.
 
 **Mitteilungen:** Erinnerungen und Hinweise (z. B. Tagesform am Morgen, Schlafenszeit, Wochenrückblick) erzeugt ZonePit lokal auf deinem Gerät. Es gibt keinen Push-Server; Inhalte von Mitteilungen verlassen das Gerät nicht. Beim ersten Start fragt iOS nach deiner Erlaubnis; einzelne Mitteilungen schaltest du unter Mehr › Freigaben ab.
 
 Hinweis: Wenn du für dein Gerät ein iCloud- oder Computer-Backup nutzt, kann Apple diese App-Daten als Teil des Backups sichern. Das richtet sich nach deinen Geräteeinstellungen und den Datenschutzbestimmungen von Apple.
+
+## 3a. Abgleich über deine iCloud
+
+Bist du auf deinem Gerät mit deiner Apple-ID in iCloud angemeldet, gleicht ZonePit einen Teil deiner Eingaben über die **private CloudKit-Datenbank in deiner eigenen iCloud** mit deinen anderen Geräten ab, auf denen ZonePit mit derselben Apple-ID läuft. Diese Datenbank gehört zu deinem iCloud-Konto; wir haben darauf **keinen Zugriff** und sehen die Daten nicht. Rechtlich verarbeitet Apple die Daten als Anbieter von iCloud nach den Datenschutzbestimmungen von Apple.
+
+- **Abgeglichen werden:** dein Wochenplan mit Einheiten und Anpassungen, Trainingsziel und Zeitbudget, FTP- und Schwellentempo-Verlauf, der Senden-Status geplanter Einheiten, deine Entscheidungen zu doppelten Trainings sowie Einstellungen (Quellen-Reihenfolge, Zonenmodell, Wetter, Aktivitätsringe).
+- **Ende-zu-Ende-verschlüsselt abgeglichen werden:** dein tägliches Befinden (Schlaf, Beine, Motivation und Notiz), deine Notizen zu Trainings, die markierte Körperregion und deine Stichworte je Tag. Diese Felder werden mit Schlüsseln verschlüsselt, die nur deine Geräte kennen; weder Apple noch wir können sie lesen.
+- **Nicht abgeglichen werden:** Daten aus Apple Health (Ruhepuls, HRV, Schlaf, Trainings usw.) und daraus berechnete Werte wie Tagesform, Belastung und Form. Jedes Gerät liest sie selbst aus Apple Health und rechnet selbst; ob Apple Health seine Daten über iCloud abgleicht, stellst du in der Health-App ein.
+- **Beispieldaten** werden nie abgeglichen.
+
+Den Abgleich schaltest du unter Mehr › iCloud-Abgleich aus; er wirkt ab dem nächsten Start, danach bleiben deine Daten nur auf dem jeweiligen Gerät. Bereits abgeglichene Daten löschst du in den iOS-Einstellungen unter deinem Namen › iCloud › Speicher verwalten › ZonePit. **Rechtsgrundlage:** Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO) bzw. für Befinden und Notizen deine Einwilligung (Art. 9 Abs. 2 lit. a DSGVO), die du durch das Ausschalten jederzeit widerrufen kannst.
 
 ## 4. KI-Coach (Apple Intelligence)
 
@@ -119,9 +130,9 @@ zonepit@icloud.com
 
 # Privacy Policy
 
-_Last updated: 30 October 2026_
+_Last updated: 2 November 2026_
 
-ZonePit is a training and recovery coach for iPhone (cycling, running, swimming, strength). It is built so that your data stays with you: we operate **no servers of our own**, you need **no account**, and there is **no tracking**. All analysis and the AI coach run **on your device**.
+ZonePit is a training and recovery coach for iPhone (cycling, running, swimming, strength). It is built so that your data stays with you: we operate **no servers of our own**, you need **no account**, and there is **no tracking**. All analysis and the AI coach run **on your device**. Across your other devices, ZonePit syncs your entries only through **your own private iCloud** (section 3a), wellbeing and notes end-to-end encrypted.
 
 ## 1. Controller
 
@@ -138,7 +149,7 @@ With your explicit permission, ZonePit reads the following data from Apple Healt
 - **Activity and body:** steps, resting energy, height, weight, body fat percentage, lean body mass
 - **Nutrition** (if a nutrition app stores it in Apple Health): energy, carbohydrates, protein, water
 - **Profile:** date of birth (for age-dependent values such as maximum heart rate and sleep goal) and biological sex (for reference ranges and to offer the cycle feature)
-- **State of mind** (mood you log in the Health app or another app): only if you choose “State of mind from Apple Health” as the source of your wellbeing under More › Apple Health (separate request, can be changed at any time); the overall value then counts in your daily readiness
+- **State of mind** (mood you log in the Health app or another app): if you choose “State of mind from Apple Health” as the source of your wellbeing under More › Apple Health, and – while “Also save to Apple Health” is on – as a fallback when no wellbeing has been entered on this device for the day (for example because you entered it on another device). Separate permission, can be changed at any time; the overall value counts towards your readiness.
 - **Only if you turn on “Show activity rings”** (More › Apple Health, off by default; separate request, can be turned off at any time): your daily activity summary – Move (active energy), Exercise (minutes), Stand (hours), each with its goal. ZonePit shows it unchanged and uses it for neither load nor plan.
 - **Only if you turn on the cycle feature** (ZonePit first explains in its own notice which data is read, and you can cancel there; then a separate iOS request, can be turned off at any time): menstruation, ovulation tests, basal body temperature, cervical mucus, spotting
 
@@ -154,13 +165,24 @@ ZonePit only requests further data (e.g. workout routes) when you use the relate
 
 ## 3. Your entries in the app
 
-Data you enter yourself – e.g. your profile (your name if you provide it, and date of birth, sex, height and weight if they do not come from Apple Health), athlete type, main focus, sports and experience, threshold values (FTP, threshold heart rate, threshold pace), maximum heart rate, training goal, target date, weekly time budget, how you feel, your perceived effort per workout, and your training plans and adjustments – is stored locally in the app's database on your device. It is not synced via iCloud or any server. Analyses derived from your data are stored locally as well, for example load and power curve per workout and your readiness per day. They can be recalculated from Apple Health at any time and do not leave the device.
+Data you enter yourself – e.g. your profile (your name if you provide it, and date of birth, sex, height and weight if they do not come from Apple Health), athlete type, main focus, sports and experience, threshold values (FTP, threshold heart rate, threshold pace), maximum heart rate, training goal, target date, weekly time budget, how you feel, your perceived effort per workout, and your training plans and adjustments – is stored locally in the app's database on your device. Nothing goes through a server of ours; syncing through your own iCloud is described in section 3a. Analyses derived from your data are stored locally as well, for example load and power curve per workout and your readiness per day. They can be recalculated from Apple Health at any time and do not leave the device.
 
 **Profile photo (optional):** You can take a photo for your profile with the camera or choose one with the iOS photo picker. For taking a photo iOS asks once for camera access; without it the photo picker stays available. ZonePit sees only the image you took or chose, stores a reduced copy exclusively on your device and never shows it outside the app (not even in the widget). “Remove photo” deletes it.
 
 **Notifications:** reminders and notices (e.g. readiness in the morning, bedtime, weekly review) are created locally on your device by ZonePit. There is no push server; notification content does not leave the device. At first launch iOS asks for your permission; you can turn off individual notifications under More › Permissions.
 
 Note: if you use iCloud or computer backups for your device, Apple may include this app data in the backup. This depends on your device settings and Apple's privacy policy.
+
+## 3a. Sync through your iCloud
+
+If you are signed in to iCloud with your Apple ID on your device, ZonePit syncs part of your entries through the **private CloudKit database in your own iCloud** with your other devices running ZonePit under the same Apple ID. This database belongs to your iCloud account; we have **no access** to it and cannot see the data. Apple processes the data as the provider of iCloud under Apple's privacy policy.
+
+- **Synced:** your weekly plan with sessions and adjustments, training goal and time budget, FTP and threshold pace history, the sent status of planned sessions, your decisions on duplicate workouts, and settings (source order, zone model, weather, activity rings).
+- **Synced end-to-end encrypted:** your daily wellbeing (sleep, legs, motivation and note), your workout notes, the marked body region and your daily tags. These fields are encrypted with keys only your devices know; neither Apple nor we can read them.
+- **Not synced:** data from Apple Health (resting heart rate, HRV, sleep, workouts etc.) and values calculated from it such as readiness, load and form. Each device reads them from Apple Health and calculates them itself; whether Apple Health syncs its data via iCloud is set in the Health app.
+- **Sample data** is never synced.
+
+Turn sync off under More › iCloud sync; it takes effect at the next launch, after which your data stays only on each device. Delete data already synced in iOS Settings under your name › iCloud › Manage Storage › ZonePit. **Legal basis:** performance of contract (Art. 6(1)(b) GDPR) and, for wellbeing and notes, your consent (Art. 9(2)(a) GDPR), which you can withdraw at any time by turning sync off.
 
 ## 4. AI coach (Apple Intelligence)
 
