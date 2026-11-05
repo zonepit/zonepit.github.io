@@ -1,6 +1,6 @@
 # Datenschutzerklärung – ZonePit
 
-_Stand: 3. November 2026_
+_Stand: 5. November 2026_
 
 > 🇬🇧 English version below: [Privacy Policy](#privacy-policy)
 
@@ -69,7 +69,7 @@ Nur wenn du die Verbindung in den Einstellungen selbst einrichtest, kann ZonePit
 - **Nicht übertragen werden:** Herzfrequenz, Leistungsaufzeichnungen, Gewicht, Vitalwerte, Befinden oder andere Gesundheitsdaten aus Apple Health.
 - **Abgerufen werden:** dein Athletenname und deine FTP aus Intervals.icu, um die Verbindung zu prüfen und Abweichungen anzuzeigen.
 - Deinen **API-Schlüssel** speichert die App ausschließlich im iOS-Schlüsselbund dieses Geräts.
-- Übertragungen finden nur statt, wenn du sie auslöst („An Intervals.icu senden“).
+- Übertragungen finden nur statt, wenn du sie auslöst („An Intervals.icu senden“) oder wenn du unter Mehr › Senden an **„Automatisch senden: Zwift über Intervals.icu“** eingeschaltet hast (Standard: aus). Dann überträgt ZonePit, solange die App geöffnet ist, die Rad- und Laufeinheiten der nächsten 7 Tage, sendet geänderte Einheiten erneut und entfernt gestrichene – immer nur Einträge, die ZonePit selbst angelegt hat, mit denselben Angaben wie oben. Ausschalten beendet die automatische Übertragung sofort.
 
 **Rechtsgrundlage:** deine Einwilligung durch Einrichtung und Auslösen der Übertragung (Art. 6 Abs. 1 lit. a DSGVO). Für die Verarbeitung bei Intervals.icu und Zwift sind deren Betreiber verantwortlich; es gelten deren Datenschutzbestimmungen. Du kannst die Verbindung jederzeit in den Einstellungen trennen und den Schlüssel löschen.
 
@@ -83,7 +83,7 @@ Beim ersten Start fragt ZonePit, ob du die Wetterfunktion nutzen möchtest; der 
 
 Wenn du eine Einheit als ZWO-Datei exportierst, erzeugt die App die Datei lokal. Wohin du sie weitergibst, entscheidest du über das iOS-Teilen-Menü.
 
-**Senden an die Apple Watch:** Wenn du eine Einheit an die Apple Watch sendest, übergibt ZonePit sie über Apples Trainings-Schnittstelle (WorkoutKit) an die Trainings-App deiner Uhr. Die Übertragung zwischen iPhone und Uhr übernimmt das System von Apple; an uns oder einen anderen Dienst wird nichts gesendet. Das Ziel „Zwift“ (Abschnitt 5) ist davon getrennt und nur für Rad und Laufen wählbar.
+**Senden an die Apple Watch:** Wenn du eine Einheit an die Apple Watch sendest, übergibt ZonePit sie über Apples Trainings-Schnittstelle (WorkoutKit) an die Trainings-App deiner Uhr. Die Übertragung zwischen iPhone und Uhr übernimmt das System von Apple; an uns oder einen anderen Dienst wird nichts gesendet. Das Ziel „Zwift“ (Abschnitt 5) ist davon getrennt und nur für Rad und Laufen wählbar. Mit **„Automatisch senden: Apple Watch“** (Mehr › Senden an, Standard: aus) plant ZonePit die Einheiten der nächsten 7 Tage selbst auf der Uhr ein und gleicht Änderungen ab. Auch dabei bleibt alles auf deinen Geräten.
 
 **ZonePit auf der Apple Watch:** Die ZonePit-App auf der Uhr zeigt Tagesform, die heutige Einheit und die Woche mit Plan und Ist. Diese Angaben rechnet das iPhone und überträgt sie über Apples direkte Verbindung zwischen iPhone und gekoppelter Uhr (WatchConnectivity) – an uns oder einen anderen Dienst wird dabei nichts gesendet. Die Uhr-App liest selbst nicht aus Apple Health und rechnet nichts. Trägst du auf der Uhr dein Befinden ein, geht dieser Eintrag auf demselben Weg zurück ans iPhone und wird dort wie ein Eintrag in der App behandelt (Abschnitt 3). Auf dem Zifferblatt (Komplikationen) verbirgt die Uhr Gesundheitswerte, solange sie gesperrt ist.
 
@@ -131,7 +131,7 @@ zonepit@icloud.com
 
 # Privacy Policy
 
-_Last updated: 3 November 2026_
+_Last updated: 5 November 2026_
 
 ZonePit is a training and recovery coach for iPhone (cycling, running, swimming, strength). It is built so that your data stays with you: we operate **no servers of our own**, you need **no account**, and there is **no tracking**. All analysis and the AI coach run **on your device**. Across your other devices, ZonePit syncs your entries only through **your own private iCloud** (section 3a), wellbeing and notes end-to-end encrypted.
 
@@ -198,7 +198,7 @@ Only if you set up the connection yourself in Settings can ZonePit send planned 
 - **Not sent:** heart rate, power recordings, weight, vital signs, wellbeing or any other health data from Apple Health.
 - **Retrieved:** your athlete name and FTP from Intervals.icu, to verify the connection and flag differences.
 - Your **API key** is stored only in this device's iOS Keychain.
-- Transfers happen only when you trigger them ("Send to Intervals.icu").
+- Transfers happen only when you trigger them ("Send to Intervals.icu") or when you have turned on **"Send automatically: Zwift via Intervals.icu"** under More › Send to (off by default). ZonePit then, while the app is open, sends the cycling and running sessions for the next 7 days, re-sends changed sessions and removes dropped ones – always only entries ZonePit created itself, with the same details as above. Turning it off stops automatic transfers immediately.
 
 **Legal basis:** your consent by setting up and triggering the transfer (Art. 6 (1) (a) GDPR). The operators of Intervals.icu and Zwift are responsible for processing on their side; their privacy policies apply. You can disconnect and delete the key in Settings at any time.
 
@@ -212,7 +212,7 @@ At first launch ZonePit asks whether you want to use the weather feature; the sw
 
 When you export a session as a ZWO file, the app creates the file locally. You decide where it goes via the iOS share sheet.
 
-**Sending to Apple Watch:** When you send a session to your Apple Watch, ZonePit hands it to the Workout app on your watch via Apple's workout interface (WorkoutKit). Apple's system handles the transfer between iPhone and watch; nothing is sent to us or to another service. The “Zwift” target (section 5) is separate and selectable only for cycling and running.
+**Sending to Apple Watch:** When you send a session to your Apple Watch, ZonePit hands it to the Workout app on your watch via Apple's workout interface (WorkoutKit). Apple's system handles the transfer between iPhone and watch; nothing is sent to us or to another service. The “Zwift” target (section 5) is separate and selectable only for cycling and running. With **"Send automatically: Apple Watch"** (More › Send to, off by default), ZonePit schedules the next 7 days of sessions on your watch itself and keeps changes in sync. This too stays on your devices.
 
 **ZonePit on Apple Watch:** The ZonePit app on your watch shows readiness, today's session and the week with plan and actual. Your iPhone calculates this information and transfers it over Apple's direct connection between iPhone and paired watch (WatchConnectivity) – nothing is sent to us or to any other service. The watch app does not read from Apple Health itself and does not calculate anything. If you log how you feel on the watch, the entry travels back to your iPhone the same way and is treated there like an entry in the app (section 3). On the watch face (complications), the watch hides health values while it is locked.
 
