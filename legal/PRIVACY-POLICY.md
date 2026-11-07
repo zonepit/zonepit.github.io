@@ -1,10 +1,10 @@
 # Datenschutzerklärung – ZonePit
 
-_Stand: 7. November 2026_
+_Stand: 7. November 2026 (Abschnitt 3a ergänzt)_
 
 > 🇬🇧 English version below: [Privacy Policy](#privacy-policy)
 
-ZonePit ist ein Coach für Training und Erholung für das iPhone (Rad, Laufen, Schwimmen, Kraft). Die App ist so gebaut, dass deine Daten bei dir bleiben: Wir betreiben **keine eigenen Server**, du brauchst **kein Konto**, und es gibt **kein Tracking**. Alle Auswertungen und der KI-Coach laufen **auf deinem Gerät**. Auf deinen anderen Geräten gleicht ZonePit deine Eingaben nur über **deine eigene private iCloud** ab (Abschnitt 3a), Befinden und Notizen Ende-zu-Ende-verschlüsselt.
+ZonePit ist ein Coach für Training und Erholung für das iPhone (Rad, Laufen, Schwimmen, Kraft). Die App ist so gebaut, dass deine Daten bei dir bleiben: Wir betreiben **keine eigenen Server**, du brauchst **kein Konto**, und es gibt **kein Tracking**. Alle Auswertungen und der KI-Coach laufen **auf deinem Gerät**. Auf deinen anderen Geräten gleicht ZonePit deine Eingaben nur über **deine eigene private iCloud** ab (Abschnitt 3a), Plan, Schwellenwerte, Wetter-Ort, Befinden und Notizen Ende-zu-Ende-verschlüsselt.
 
 ## 1. Verantwortlicher
 
@@ -49,8 +49,8 @@ Hinweis: Wenn du für dein Gerät ein iCloud- oder Computer-Backup nutzt, kann A
 
 Bist du auf deinem Gerät mit deiner Apple-ID in iCloud angemeldet, gleicht ZonePit einen Teil deiner Eingaben über die **private CloudKit-Datenbank in deiner eigenen iCloud** mit deinen anderen Geräten ab, auf denen ZonePit mit derselben Apple-ID läuft. Diese Datenbank gehört zu deinem iCloud-Konto; wir haben darauf **keinen Zugriff** und sehen die Daten nicht. Rechtlich verarbeitet Apple die Daten als Anbieter von iCloud nach den Datenschutzbestimmungen von Apple.
 
-- **Abgeglichen werden:** dein Wochenplan mit Einheiten und Anpassungen, Trainingsziel und Zeitbudget, FTP- und Schwellentempo-Verlauf, der Senden-Status geplanter Einheiten, deine Entscheidungen zu doppelten Trainings sowie Einstellungen (Quellen-Reihenfolge, Zonenmodell, Wetter, Aktivitätsringe).
-- **Ende-zu-Ende-verschlüsselt abgeglichen werden:** dein tägliches Befinden (Schlaf, Beine, Motivation und Notiz), deine Notizen zu Trainings, die markierte Körperregion und deine Stichworte je Tag. Diese Felder werden mit Schlüsseln verschlüsselt, die nur deine Geräte kennen; weder Apple noch wir können sie lesen.
+- **Abgeglichen werden:** Trainingsziel und Zeitbudget, der Senden-Status geplanter Einheiten, deine Entscheidungen zu doppelten Trainings sowie Einstellungen (Quellen-Reihenfolge, Zonenmodell, Wetter an/aus, Aktivitätsringe).
+- **Ende-zu-Ende-verschlüsselt abgeglichen werden:** dein Wochenplan mit Einheiten und Anpassungen, dein FTP- und Schwellentempo-Verlauf, ein von dir eingegebener Wetter-Ort (Stadt und Koordinaten), dein tägliches Befinden (Schlaf, Beine, Motivation und Notiz), deine Notizen zu Trainings, die markierte Körperregion und deine Stichworte je Tag. Diese Felder werden mit Schlüsseln verschlüsselt, die nur deine Geräte kennen; weder Apple noch wir können sie lesen.
 - **Nicht abgeglichen werden:** Daten aus Apple Health (Ruhepuls, HRV, Schlaf, Trainings usw.) und daraus berechnete Werte wie Tagesform, Belastung und Form. Jedes Gerät liest sie selbst aus Apple Health und rechnet selbst; ob Apple Health seine Daten über iCloud abgleicht, stellst du in der Health-App ein.
 - **Beispieldaten** werden nie abgeglichen.
 
@@ -132,9 +132,9 @@ zonepit@icloud.com
 
 # Privacy Policy
 
-_Last updated: 7 November 2026_
+_Last updated: 7 November 2026 (section 3a updated)_
 
-ZonePit is a training and recovery coach for iPhone (cycling, running, swimming, strength). It is built so that your data stays with you: we operate **no servers of our own**, you need **no account**, and there is **no tracking**. All analysis and the AI coach run **on your device**. Across your other devices, ZonePit syncs your entries only through **your own private iCloud** (section 3a), wellbeing and notes end-to-end encrypted.
+ZonePit is a training and recovery coach for iPhone (cycling, running, swimming, strength). It is built so that your data stays with you: we operate **no servers of our own**, you need **no account**, and there is **no tracking**. All analysis and the AI coach run **on your device**. Across your other devices, ZonePit syncs your entries only through **your own private iCloud** (section 3a), with plan, thresholds, weather location, wellbeing and notes end-to-end encrypted.
 
 ## 1. Controller
 
@@ -179,8 +179,8 @@ Note: if you use iCloud or computer backups for your device, Apple may include t
 
 If you are signed in to iCloud with your Apple ID on your device, ZonePit syncs part of your entries through the **private CloudKit database in your own iCloud** with your other devices running ZonePit under the same Apple ID. This database belongs to your iCloud account; we have **no access** to it and cannot see the data. Apple processes the data as the provider of iCloud under Apple's privacy policy.
 
-- **Synced:** your weekly plan with sessions and adjustments, training goal and time budget, FTP and threshold pace history, the sent status of planned sessions, your decisions on duplicate workouts, and settings (source order, zone model, weather, activity rings).
-- **Synced end-to-end encrypted:** your daily wellbeing (sleep, legs, motivation and note), your workout notes, the marked body region and your daily tags. These fields are encrypted with keys only your devices know; neither Apple nor we can read them.
+- **Synced:** training goal and time budget, the sent status of planned sessions, your decisions on duplicate workouts, and settings (source order, zone model, weather on/off, activity rings).
+- **Synced end-to-end encrypted:** your weekly plan with sessions and adjustments, your FTP and threshold pace history, a weather location you entered (city and coordinates), your daily wellbeing (sleep, legs, motivation and note), your workout notes, the marked body region and your daily tags. These fields are encrypted with keys only your devices know; neither Apple nor we can read them.
 - **Not synced:** data from Apple Health (resting heart rate, HRV, sleep, workouts etc.) and values calculated from it such as readiness, load and form. Each device reads them from Apple Health and calculates them itself; whether Apple Health syncs its data via iCloud is set in the Health app.
 - **Sample data** is never synced.
 
