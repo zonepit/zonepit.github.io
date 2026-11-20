@@ -1,6 +1,6 @@
 # Datenschutzerklärung – ZonePit
 
-_Stand: 20. November 2026 (Abschnitte 3a und 7 aktualisiert)_
+_Stand: 20. November 2026 (Abschnitte 3a, 5 und 7 aktualisiert)_
 
 > 🇬🇧 English version below: [Privacy Policy](#privacy-policy)
 
@@ -67,6 +67,7 @@ Nur wenn du die Verbindung in den Einstellungen selbst einrichtest, kann ZonePit
 - **Coaching-Hinweise:** Ist „Coaching-Texte“ eingeschaltet (Standard, abschaltbar unter Mehr › Senden an), stehen in der Beschreibung kurze, allgemeine Hinweise je Abschnitt (z. B. „Schultern locker“). Sie werden aus der Einheit erzeugt, nicht aus deinen Gesundheitsdaten. **Dein Vorname** steht nur darin, wenn du „Meinen Namen verwenden“ ausdrücklich eingeschaltet hast.
 - **Nicht übertragen werden:** Herzfrequenz, Leistungsaufzeichnungen, Gewicht, Vitalwerte, Befinden oder andere Gesundheitsdaten aus Apple Health.
 - **Abgerufen werden:** dein Athletenname und deine FTP aus Intervals.icu, um die Verbindung zu prüfen und Abweichungen anzuzeigen.
+- **Änderungen übernehmen (nur mit Schalter):** Ist unter Mehr › Intervals.icu & Zwift „Änderungen übernehmen“ eingeschaltet (Standard: aus), liest ZonePit die von ZonePit gesendeten Einheiten in deinem Intervals.icu-Kalender (Datum, Dauer, Kennung „zonepit-…“) wieder ab, um Verschiebungen, geänderte Dauer oder Löschungen in deinen Plan zu übernehmen. Andere Kalendereinträge, Trainings oder Gesundheitswerte liest ZonePit dabei nicht. Gelöschte Einheiten entfernt ZonePit nur nach deiner Rückfrage.
 - **FTP senden (nur auf Wunsch):** Weicht deine FTP in Intervals.icu von der in ZonePit ab, kannst du unter Mehr › Intervals.icu & Zwift „An Intervals.icu senden“ wählen. Erst nach deiner Bestätigung schreibt ZonePit deine FTP (ein Wattwert) in deine Rad-Einstellungen bei Intervals.icu. Weitere Werte werden dabei nicht übertragen.
 - Deinen **API-Schlüssel** speichert die App ausschließlich im iOS-Schlüsselbund dieses Geräts.
 - Übertragungen finden nur statt, wenn du sie auslöst („An Intervals.icu senden“) oder wenn du unter Mehr › Senden an **„Automatisch senden: Zwift über Intervals.icu“** eingeschaltet hast (Standard: aus). Dann überträgt ZonePit – nur auf dem Gerät, das unter „Sendendes Gerät“ festgelegt ist – solange die App geöffnet ist, die Rad- und Laufeinheiten der nächsten 7 Tage, sendet geänderte Einheiten erneut und entfernt gestrichene – immer nur Einträge, die ZonePit selbst angelegt hat, mit denselben Angaben wie oben. Ausschalten beendet die automatische Übertragung sofort.
@@ -131,7 +132,7 @@ zonepit@icloud.com
 
 # Privacy Policy
 
-_Last updated: 20 November 2026 (sections 3a and 7 updated)_
+_Last updated: 20 November 2026 (sections 3a, 5 and 7 updated)_
 
 ZonePit is a training and recovery coach for iPhone (cycling, running, swimming, strength). It is built so that your data stays with you: we operate **no servers of our own**, you need **no account**, and there is **no tracking**. All analysis and the AI coach run **on your device**. Across your other devices, ZonePit syncs your entries only through **your own private iCloud** (section 3a), fully end-to-end encrypted.
 
@@ -196,6 +197,7 @@ Only if you set up the connection yourself in Settings can ZonePit send planned 
 - **Coaching cues:** if "Coaching texts" is on (default, can be turned off under More › Send to), the description contains short, general cues per segment (e.g. "relax your shoulders"). They are generated from the session, not from your health data. **Your first name** is included only if you have explicitly turned on "Use my name".
 - **Not sent:** heart rate, power recordings, weight, vital signs, wellbeing or any other health data from Apple Health.
 - **Retrieved:** your athlete name and FTP from Intervals.icu, to verify the connection and flag differences.
+- **Apply changes (only with the switch):** If "Apply changes" is turned on under More › Intervals.icu & Zwift (default: off), ZonePit reads back the sessions it sent to your Intervals.icu calendar (date, duration, identifier "zonepit-…") to apply moves, changed durations or deletions to your plan. ZonePit does not read other calendar entries, workouts or health data. Deleted sessions are removed only after you confirm.
 - **Sending your FTP (only on request):** if your FTP in Intervals.icu differs from the one in ZonePit, you can choose "Send to Intervals.icu" under More › Intervals.icu & Zwift. Only after you confirm does ZonePit write your FTP (a single watt value) to your cycling settings on Intervals.icu. No other values are sent.
 - Your **API key** is stored only in this device's iOS Keychain.
 - Transfers happen only when you trigger them ("Send to Intervals.icu") or when you have turned on **"Send automatically: Zwift via Intervals.icu"** under More › Send to (off by default). ZonePit then, only on the device set as "Sending device" and while the app is open, sends the cycling and running sessions for the next 7 days, re-sends changed sessions and removes dropped ones – always only entries ZonePit created itself, with the same details as above. Turning it off stops automatic transfers immediately.
